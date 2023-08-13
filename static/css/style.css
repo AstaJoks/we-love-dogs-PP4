@@ -1,7 +1,11 @@
-/*-- GENERAL BODY/HTML --*/
-
+/*-- GENERAL BODY --*/
 body {
     background-color: #F9FAFC;
+}
+
+/*-- NAVIGATION --*/
+img.logo {
+    width: 130px;
 }
 
 .light-bg {
@@ -17,23 +21,36 @@ body {
 }
 
 
-/*-- FOOTER --*/
+/*-- HERO SECTION --*/
+.home-image {
+    background-image: url(https://res.cloudinary.com/dcydt01ed/image/upload/v1691714279/wallpaperflare.com_wallpaper_5_g6fjwv.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 60vh;
+    position: relative;
+    color: #fff;
+}
 
+.hero-text,
+.hero-text h1,
+.hero-text p {
+    position: relative;
+    z-index: 1;
+    text-align: center;
+}
+
+.main-text {
+    background-color: rgba(36, 35, 35, 0.5);
+    padding: 40px;
+}
+
+
+/*-- FOOTER --*/
 img.footer-logo {
     width: 90px;
 }
 
-.social-networks {
-    text-align: center;
-}
-
-.social-networks>li {
-    display: inline;
-}
-
 .social-networks i {
-    font-size: 150%;
-    margin: 1% 2%;
-    padding: 0 1%;
     color: #DADAD2;
 }
