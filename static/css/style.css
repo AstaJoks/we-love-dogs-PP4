@@ -46,6 +46,18 @@ img.logo {
 }
 
 
+/*-- ABOUT US SECTION --*/
+.carousel-inner {
+    box-shadow: 0px 6px 10px rgba(0, 0, 0, 0.9);
+}
+
+.carousel-item img {
+    height: 350px;
+    width: 100%;
+    object-fit: cover;
+}
+
+
 /*-- FOOTER --*/
 img.footer-logo {
     width: 90px;
