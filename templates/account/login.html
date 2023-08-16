@@ -8,26 +8,24 @@
 {% block content %}
 
 <div class="container">
-  <div class="row">
-    <div class="col-md-8 mt-3 offset-md-2">
-      <h3>{% trans "Log In" %}</h3>
-
-      <p>{% blocktrans %}Welcome back to the WeLoveDogs blog. To add the post, leave a comment or like a post, please log in. If you
-        have not created an account yet, then <a class="link" href="{{ signup_url }}">sign up</a>
-        first.{% endblocktrans %}</p>
-    </div>
-  </div>
-  <div class="row">
-    <div class="col-md-8 mt-3 offset-md-2">
-      <form class="login" method="POST" action="{% url 'account_login' %}">
+  <div class="row justify-content-center">
+    <div class="col-11 col-md-6 col-lg-5 col-xl-4 p-5 mb-5 card-welcome border border-dark border-2 rounded-3 justify-content-center">
+      <h3 class="text-center">{% trans "Log In" %}</h3>
+        <div class="col-md-8 mt-3 offset-md-2">
+          <form method="POST" action="{% url 'account_login' %}">
         {% csrf_token %}
         {{ form.as_p }}
         {% if redirect_field_value %}
         <input type="hidden" name="{{ redirect_field_name }}" value="{{ redirect_field_value }}" />
         {% endif %}
-        <button class="btn btn-primary right" type="submit">{% trans "Log In" %}</button>
-      </form>
-    </div>
+        <button class="btn btn-primary justify-content-center" type="submit">{% trans "Log In" %}</button>
+      
+      <hr>
+      <p class="text-center">Don't have an account yet? <br> Sign Up here...</p>
+      <a class="login-register btn btn-primary" href="{% url 'account_signup' %}">Sign Up</a>
+    </form>
   </div>
+  </div>   
+</div>
 </div>
 {% endblock %}

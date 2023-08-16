@@ -3,6 +3,16 @@ body {
     background-color: #F9FAFC;
 }
 
+.btn {
+    background-color: #e6b265;
+    border: 1px solid black;
+    box-shadow: 2px 3px 10px 2px black;
+    color: black;
+    font-weight: bold;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
 /*-- NAVIGATION --*/
 img.logo {
     width: 130px;
@@ -99,4 +109,13 @@ img.footer-logo {
 
 .login-form {
     margin-top: 10rem;
+}
+
+
+/*-- LOGIN/REGISTER FORMS --*/
+.card-welcome {
+    margin-top: 7rem;
+    background-color: #e7d3b5;
+    box-shadow: 5px 5px 8px 4px;
+    text-align: center;
 }
