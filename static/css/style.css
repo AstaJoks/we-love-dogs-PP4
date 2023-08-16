@@ -9,7 +9,7 @@ body {
     box-shadow: 2px 3px 10px 2px black;
     color: black;
     font-weight: bold;
-    margin-top: 1rem;
+    margin-top: 2rem;
     margin-bottom: 1rem;
 }
 
@@ -114,7 +114,7 @@ img.footer-logo {
 
 /*-- LOGIN/REGISTER FORMS --*/
 .card-welcome {
-    margin-top: 7rem;
+    margin-top: 5rem;
     background-color: #e7d3b5;
     box-shadow: 5px 5px 8px 4px;
     text-align: center;

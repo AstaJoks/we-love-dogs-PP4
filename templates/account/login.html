@@ -11,8 +11,8 @@
   <div class="row justify-content-center">
     <div class="col-11 col-md-6 col-lg-5 col-xl-4 p-5 mb-5 card-welcome border border-dark border-2 rounded-3 justify-content-center">
       <h3 class="text-center">{% trans "Log In" %}</h3>
-        <div class="col-md-8 mt-3 offset-md-2">
-          <form method="POST" action="{% url 'account_login' %}">
+      <div class="col-md-8 mt-3 offset-md-2">
+      <form method="POST" action="{% url 'account_login' %}">
         {% csrf_token %}
         {{ form.as_p }}
         {% if redirect_field_value %}

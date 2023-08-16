@@ -1,21 +1,40 @@
-{% extends "account/base.html" %}
+{% extends "base.html" %}
 
 {% load i18n %}
 
 {% block head_title %}{% trans "Signup" %}{% endblock %}
 
 {% block content %}
-<h1>{% trans "Sign Up" %}</h1>
 
-<p>{% blocktrans %}Already have an account? Then please <a href="{{ login_url }}">sign in</a>.{% endblocktrans %}</p>
 
-<form class="signup" id="signup_form" method="post" action="{% url 'account_signup' %}">
-  {% csrf_token %}
-  {{ form.as_p }}
-  {% if redirect_field_value %}
-  <input type="hidden" name="{{ redirect_field_name }}" value="{{ redirect_field_value }}" />
-  {% endif %}
-  <button type="submit">{% trans "Sign Up" %} &raquo;</button>
-</form>
+<main class="container">
+  <section class="row justify-content-center">
+      <div
+      class="col-11 col-md-6 col-lg-5 col-xl-4 p-5 mb-5 card-welcome border border-dark border-2 rounded-3 justify-content-center">
+      <div class="col-md-8 mt-3 offset-md-2">
+          <form method="POST" action="{% url 'account_signup' %}">
+              <h3>Create Account</h3>
+              {% csrf_token %}
+              {% for field in form %}
+              <label class="label">{{field.label}}</label>
+              {{field}}
+              
+              {% for error in field.errors %}
+              <br>
+              <small style="color: red;"><b>**{{error}}**</b></small>
+              <br>
+              {% endfor %}
+              
+              {% endfor %}
+              <input type="submit" value="Sign Up" class="btn btn-primary">
+              <hr>
+              <p>Already have an account? <br> Sign in here...</p>
+              
+              <a class="btn btn-primary" href="{% url 'account_login' %}">Log In</a>
+          </form>
+      </div>
+    </div>
+  </section>
 
+</main>
 {% endblock %}
