@@ -37,19 +37,22 @@
           <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
         <ul class="navbar-nav mr-5">
           <li class="nav-item">
-            <a class="nav-link" href="{% url 'home' %}">Home</a>
+              <a class="nav-link" href="{% url 'home' %}">Home</a>
             </li>
-            <li class="nav-item">
+          <li class="nav-item">
               <a class="nav-link" href="{% url 'blog' %}">Blog</a>
             </li>
+          <li class="nav-item">
+              <a class="nav-link" href="#">Contact Us</a>
+            </li>
             {% if user.is_authenticated %}
+            <li class="nav-item">
+              <a class="nav-link" href="#">Profile</a>
+            </li>
             <li class="nav-item">
               <a class="nav-link" href="{% url 'account_logout' %}">Logout</a>
             </li>
             {% else %}
-            <li class="nav-item">
-              <a class="nav-link" href="#">Contact Us</a>
-            </li>
             <li class="nav-item">
               <a class="nav-link" href="{% url 'account_signup' %}">Sign Up</a>
             </li>
