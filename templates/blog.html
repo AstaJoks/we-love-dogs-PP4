@@ -23,7 +23,7 @@
                                     <p class="author">Author: {{ post.author }}</p>
                                 </div>
                             </div>
-                            <a href="{#}" class="post-link">
+                            <a href="{% url 'post_detail' post.slug %}" class="post-link">
                                 <h2 class="card-title">{{ post.title }}</h2>
                                 <p class="card-text">{{ post.excerpt }}</p>
                             </a>
@@ -32,7 +32,7 @@
                                 <i class="far fa-solid fa-heart" style="color: #ff0a0a;"></i> {{ post.number_of_likes }}
                                 <i class="far fa-solid fa-comments"></i> {{ post.number_of_comments }}
                             </p>
-                            <a href="#" class="btn btn-dark">Read More</a>
+                            <a href="{% url 'post_detail' post.slug %}" class="btn btn-dark">Read More</a>
                         </div>
                     </div>
                 </div>

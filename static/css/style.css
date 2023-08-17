@@ -83,13 +83,11 @@ img.logo {
     bottom: 5%;
     min-width: 30%;
     left: -2px;
-    background-color:#dbddd8;
+    background-color:#e6b265;
 }
 
 .author {
-    color: #141414;
     margin: 4px;
-    text-transform: uppercase;
 }
 
 .post-link {
@@ -118,4 +116,50 @@ img.footer-logo {
     background-color: #e7d3b5;
     box-shadow: 5px 5px 8px 4px;
     text-align: center;
+}
+
+
+/*-- POST DETAIL --*/
+.masthead {
+    margin-top: 10px;
+    overflow: hidden;
+    position: relative;
+    display: inline-block;
+    height: 33vh;
+    width: 100%;
+}
+
+.masthead-text {
+    background-color: #e6b265;
+    color: black;
+    position: relative;
+}
+
+.masthead-image {
+    position: relative;
+    overflow: hidden;
+}
+
+.masthead-image:after {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 90%;
+    height: 100%;
+    width: 150%;
+    background: #e6b265;
+    -webkit-transform: skew(15deg);
+    -moz-transform: skew(15deg);
+    transform: skew(15deg);
+    z-index: 100;
+}
+
+.post-title {
+    margin-top: 20%;
+    margin-left: 5%;
+}
+
+.post-subtitle {
+    margin-left: 5%;
+    color: black;
 }
