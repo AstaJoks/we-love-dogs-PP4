@@ -163,3 +163,17 @@ img.footer-logo {
     margin-left: 5%;
     color: black;
 }
+
+
+.btn-like {
+    color: #f3140c;
+    border: none;
+    background: transparent;
+}
+
+.btn-like:hover,
+.btn-like:active {
+    color: #f3140c;
+    background: transparent;
+    border: none;
+}
