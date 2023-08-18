@@ -2,26 +2,23 @@
 
 {% load crispy_forms_tags %}
 
-<div class="masthead">
-    <div class="container">
+    <div class="container masthead">
         <div class="row g-0 masthead-text">
-            <div class="col card">
+            <div class="card">
                 <h1 class="post-title">{{ post.title }}</h1>
                 <p class="post-subtitle">{{ post.author }} | {{ post.created_on }} | {{ post.number_of_comments }} comments</p>
             </div>
         </div>
-        <div class="row g-0 masthead-image">
-            <div class="col card">
-                {% if "placeholder" in post.featured_image.url %}
-                <img class="img-responsive" src="https://res.cloudinary.com/dcydt01ed/image/upload/v1691541592/b25lY21zOjJjMjhiYjFlLWUxNzUtNDU0My04Y2I1LWVjNWJjMzllZDFkOTplMzQ3ZmNjNS1iNWFiLTQ2OGUtOWE3Zi1jYzM0NDc3OGRlZDg_m61lwh.jpg" width="100%">
-                {% else %}
-                <img src=" {{ post.featured_image.url }}" width="100%">
-                {% endif %}
+    <div class="row g-0">
+        <div class="card">
+            {% if "placeholder" in post.featured_image.url %}
+            <img class="img-responsive" src="https://res.cloudinary.com/dcydt01ed/image/upload/v1691541592/b25lY21zOjJjMjhiYjFlLWUxNzUtNDU0My04Y2I1LWVjNWJjMzllZDFkOTplMzQ3ZmNjNS1iNWFiLTQ2OGUtOWE3Zi1jYzM0NDc3OGRlZDg_m61lwh.jpg" width="100%">
+            {% else %}
+            <img src=" {{ post.featured_image.url }}" width="100%">
+            {% endif %}
+            </div>
         </div>
     </div>
-        </div>
-    </div>
-</div>
 
 <div class="container">
     <div class="row">

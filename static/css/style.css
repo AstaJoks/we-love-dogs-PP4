@@ -123,16 +123,11 @@ img.footer-logo {
 .masthead {
     margin-top: 10px;
     overflow: hidden;
-    height: 60vh;
 }
 
 .masthead-text {
     background-color: #e6b265;
     color: black;
-}
-
-.masthead-image {
-    object-fit: cover;
 }
 
 .post-title {
