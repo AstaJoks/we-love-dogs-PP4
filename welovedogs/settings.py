@@ -30,7 +30,7 @@ TEMPLATES_DIR = os.path.join(BASE_DIR, 'templates')
 SECRET_KEY = os.environ.get('SECRET_KEY')
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
 ALLOWED_HOSTS = ['*', '8000-astajoks-welovedogspp4-k8q6bbzqvhw.ws-eu103.gitpod.io']
 
@@ -60,7 +60,6 @@ SITE_ID = 1
 LOGIN_REDIRECT_URL = '/'
 LOGOUT_REDIRECT_URL = '/'
 ACCOUNT_EMAIL_VERIFICATION = 'none'
-
 
 
 MIDDLEWARE = [
