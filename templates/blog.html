@@ -14,10 +14,10 @@
                         <div class="card-body">
                             <div class="image-container">
                                 {% if "placeholder" in post.featured_image.url %}
-                                <img class="card-img-top"
+                                <img class="card-img-top img-thumbnail"
                                     src="https://res.cloudinary.com/dcydt01ed/image/upload/v1691541592/b25lY21zOjJjMjhiYjFlLWUxNzUtNDU0My04Y2I1LWVjNWJjMzllZDFkOTplMzQ3ZmNjNS1iNWFiLTQ2OGUtOWE3Zi1jYzM0NDc3OGRlZDg_m61lwh.jpg">
                                 {% else %}
-                                <img class="card-img-top" src=" {{ post.featured_image.url }}">
+                                <img class="card-img-top img-thumbnail" src=" {{ post.featured_image.url }}">
                                 {% endif %}
                                 <div class="image-flash">
                                     <p class="author">Author: {{ post.author }}</p>
@@ -25,6 +25,8 @@
                             </div>
                             {% if user.is_authenticated %}
                             <a href="{% url 'post_detail' post.slug %}" class="post-link">
+                                {% else %}
+                                <a href="{% url 'account_signup' %}" class="post-link">
                                 {% endif %}
                                 <h2 class="card-title">{{ post.title }}</h2>
                                 <p class="card-text">{{ post.excerpt }}</p>
@@ -36,6 +38,8 @@
                             </p>
                             {% if user.is_authenticated %}
                             <a href="{% url 'post_detail' post.slug %}" class="btn btn-dark">Read More</a>
+                            {% else %}
+                            <a href="{% url 'account_signup' %}" class="btn btn-dark">Read More</a>
                             {% endif %}
                         </div>
                     </div>
