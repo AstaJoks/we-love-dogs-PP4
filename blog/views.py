@@ -1,8 +1,12 @@
 from django.shortcuts import render, get_object_or_404, reverse
 from django.views import generic, View
+from django.views.generic import ListView, CreateView, UpdateView, DeleteView
 from django.http import HttpResponseRedirect
 from .models import Post
-from .forms import CommentForm
+from .forms import CommentForm, PostForm
+from django.shortcuts import render, redirect
+from django.contrib import messages
+from django.contrib.messages.views import SuccessMessageMixin
 
 
 class Home(View):
@@ -18,6 +22,19 @@ class PostList(generic.ListView):
     queryset = Post.objects.filter(status=1).order_by("-created_on")
     template_name = "blog.html"
     paginate_by = 6
+
+
+class CreatePost(SuccessMessageMixin, CreateView):
+    """view to create the post on the blog"""
+    model = Post
+    form_class = PostForm
+    template_name = 'create_post.html'
+    success_message = 'Your post has been successfully created'
+
+    def form_valid(self, form):
+        user = self.request.user
+        form.instance.author = user
+        return super(Create, self).form_valid(form)
 
 
 class PostDetail(View):
