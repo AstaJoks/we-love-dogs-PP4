@@ -13,7 +13,7 @@ class PostForm(forms.ModelForm):
         fields = [
             'title',
             'content',
-            'image',
+            'featured_image',
         ]
 
         widgets = {

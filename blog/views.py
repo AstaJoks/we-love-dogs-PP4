@@ -34,7 +34,7 @@ class CreatePost(SuccessMessageMixin, CreateView):
     def form_valid(self, form):
         user = self.request.user
         form.instance.author = user
-        return super(Create, self).form_valid(form)
+        return super(CreatePost, self).form_valid(form)
 
 
 class PostDetail(View):
