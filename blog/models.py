@@ -7,6 +7,9 @@ STATUS = ((0, "Draft"), (1, "Published"))
 
 
 class Post(models.Model):
+    """
+    A class for the post model
+    """
     title = models.CharField(max_length=200, unique=True)
     slug = models.SlugField(max_length=200, unique=True)
     author = models.ForeignKey(
@@ -23,7 +26,9 @@ class Post(models.Model):
 
     class Meta:
         ordering = ["-created_on"]
-
+    """
+    Returns post title, number of likes and comments
+    """
     def __str__(self):
         return self.title
 
@@ -35,6 +40,9 @@ class Post(models.Model):
 
 
 class Comment(models.Model):
+    """
+    A class for the comment model
+    """
     post = models.ForeignKey(Post, on_delete=models.CASCADE,
                              related_name="comments")
     name = models.CharField(max_length=80)
@@ -45,6 +53,8 @@ class Comment(models.Model):
 
     class Meta:
         ordering = ["created_on"]
-
+    """
+    Returns users name and comment
+    """
     def __str__(self):
         return f"Comment {self.body} by {self.name}"
