@@ -43,7 +43,7 @@
               <a class="nav-link" href="{% url 'blog' %}">Blog</a>
             </li>
           <li class="nav-item">
-              <a class="nav-link" href="#">Contact Us</a>
+              <a class="nav-link" href="{% url 'contact:contact' %}">Contact Us</a>
             </li>
             {% if user.is_authenticated %}
             <li class="nav-item">

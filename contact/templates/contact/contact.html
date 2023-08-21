@@ -1,0 +1,30 @@
+{% extends "base.html" %}
+
+{% load crispy_forms_tags %}
+
+{% block title %}Contact us{% endblock %}
+
+{% block content %}
+
+<div class="container form-style">
+    <div class="container text-right">
+        <h1>Contact us</h1>
+        <form method="post">
+            <div class="form-group">
+                {% csrf_token %}
+                {{ contact_form | crispy }}
+            </div>
+            <p><input type="submit" value="Submit"
+                    class="btn text-center">
+            </p>
+        </form>
+        <div>
+            <a href="/" aria-label="Cancel button"
+                class="btn text-center">
+                Cancel
+            </a>
+        </div>
+    </div>
+</div>
+
+{% endblock %}
