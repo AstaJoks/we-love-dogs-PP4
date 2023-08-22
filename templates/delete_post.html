@@ -1,0 +1,32 @@
+{% extends 'base.html' %}
+
+{% load static % }
+
+{% block content %}
+
+
+<!-- DELETE POST TEMPLATE -->
+<div class="container">
+    <div class="row justify-content-center">
+      <div class="col-11 col-md-6 col-lg-5 col-xl-4 p-5 mb-5 card-welcome border border-dark border-2 rounded-3 justify-content-center">
+        <h3 class="text-center">Delete: {{ post.title }}?</h3>
+            <br>
+            {% csrf_token %}
+            <strong>All data of this post will be permanently deleted!</strong>
+            <br/>
+            <button class="btn">Delete Post</button>
+        </div>
+    </div>
+</div>
+
+<!-- MESSAGES -->
+{% if messages %}
+<div class="alert alert-success">
+    {% for m in messages %}
+    <li{% if message.tags %} class="{{ message.tags }}" {% endif %}>{{ m }}</li>
+        {% endfor %}
+</div>
+
+{% endif %}
+
+{% endblock %}

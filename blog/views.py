@@ -46,6 +46,18 @@ class UpdatePost(SuccessMessageMixin, UpdateView):
     success_message = 'Your post has been successfully updated!'
 
 
+class DeletePost(SuccessMessageMixin, DeleteView):
+    """View to delete the users post"""
+    model = BlogPost
+    template_name = 'delete_post.html'
+    success_url = reverse_lazy('blog')
+    success_message = "Your post has been successfully deleted!"
+
+    def delete(self, request, *args, **kwargs):
+        messages.success(self.request, self.success_message)
+        return super(DeletePost, self).delete(request, *args, **kwargs)
+
+
 class PostDetail(View):
     """View to render a Blog Posts Details"""
 
