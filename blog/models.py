@@ -28,9 +28,7 @@ class Post(models.Model):
 
     class Meta:
         ordering = ["-created_on"]
-    """
-    Returns post title, number of likes and comments
-    """
+
     def save(self, *args, **kwargs):
         self.slug = slugify(self.title)
         super(Post, self).save(*args, **kwargs)
@@ -40,7 +38,9 @@ class Post(models.Model):
 
     def get_absolute_url(self):
         return reverse('blog')
-
+    """
+    Returns post title, number of likes and comments
+    """
     def number_of_likes(self):
         return self.likes.count()
 
