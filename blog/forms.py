@@ -1,4 +1,3 @@
-from django_summernote.widgets import SummernoteWidget
 from .models import Post, Comment
 from django import forms
 from django.contrib.auth.models import User
@@ -15,10 +14,6 @@ class PostForm(forms.ModelForm):
             'content',
             'featured_image',
         ]
-
-        widgets = {
-            'content': SummernoteWidget(),
-        }
 
 
 class CommentForm(forms.ModelForm):
