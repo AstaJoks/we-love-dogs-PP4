@@ -29,7 +29,7 @@ class CreatePost(SuccessMessageMixin, CreateView):
     model = Post
     form_class = PostForm
     template_name = 'create_post.html'
-    success_message = 'Your post has been successfully created'
+    success_message = 'Your post has been successfully created!'
 
     def form_valid(self, form):
         user = self.request.user

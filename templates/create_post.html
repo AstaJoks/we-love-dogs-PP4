@@ -2,14 +2,12 @@
 {% load static % }
 {% block content %}
 
-<div class="container">
-    <div class="form-group">
-        <h2>Create Post</h2>
+<div class="container form-style">
+    <div class="p-5 mb-5 post-card border border-dark border-2 rounded-3">
+        <h1 class="card-title">Create Post</h1>
         <form enctype="multipart/form-data" method="POST"> {% csrf_token %}
-            <div class="container mt-4">
                 {{ form.as_p }}
                 <button class="btn">Create Post</button>
-            </div>
         </form>
     </div>
 </div>
