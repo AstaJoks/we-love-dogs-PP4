@@ -33,7 +33,7 @@ SECRET_KEY = os.environ.get('SECRET_KEY')
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = ['*', 'localhoust']
+ALLOWED_HOSTS = ['we-love-dogs-pp4-3e532b8b5551.herokuapp.com', 'localhoust']
 
 X_FRAME_OPTIONS = 'SAMEORIGIN'
 
