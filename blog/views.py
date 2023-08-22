@@ -18,6 +18,7 @@ class Home(View):
 
 
 class PostList(generic.ListView):
+    """View to render a Blog Posts List"""
     model = Post
     queryset = Post.objects.filter(status=1).order_by("-created_on")
     template_name = "blog.html"
@@ -25,7 +26,7 @@ class PostList(generic.ListView):
 
 
 class CreatePost(SuccessMessageMixin, CreateView):
-    """view to create the post on the blog"""
+    """View to create the post by the user"""
     model = Post
     form_class = PostForm
     template_name = 'create_post.html'
@@ -38,6 +39,7 @@ class CreatePost(SuccessMessageMixin, CreateView):
 
 
 class PostDetail(View):
+    """View to render a Blog Posts Details"""
 
     def get(self, request, slug, *args, **kwargs):
         queryset = Post.objects.filter(status=1)
@@ -60,7 +62,7 @@ class PostDetail(View):
         )
 
     def post(self, request, slug, *args, **kwargs):
-
+        """Function for users to allow commenting"""
         queryset = Post.objects.filter(status=1)
         post = get_object_or_404(queryset, slug=slug)
         comments = post.comments.filter(approved=True).order_by("-created_on")
@@ -92,7 +94,7 @@ class PostDetail(View):
 
 
 class PostLike(View):
-
+    """Function for users to allow liking the post"""
     def post(self, request, slug, *args, **kwargs):
         post = get_object_or_404(Post, slug=slug)
         if post.likes.filter(id=request.user.id).exists():

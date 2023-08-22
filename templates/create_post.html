@@ -6,6 +6,8 @@
 
 {% block content %}
 
+
+<!-- CREATE POST FORM -->
 <div class="container form-style">
     <div class="p-5 mb-5 post-card border border-dark border-2 rounded-3">
         <h1 class="card-title">Create Post</h1>
@@ -19,13 +21,14 @@
     </div>
 </div>
 
-<!-- messages -->
+<!-- MESSAGES -->
 {% if messages %}
 <div class="alert alert-success">
     {% for m in messages %}
     <li{% if message.tags %} class="{{ message.tags }}" {% endif %}>{{ m }}</li>
         {% endfor %}
 </div>
+
 {% endif %}
 
 {% endblock %}

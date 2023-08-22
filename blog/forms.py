@@ -17,7 +17,9 @@ class PostForm(forms.ModelForm):
 
 
 class CommentForm(forms.ModelForm):
+    """
+    Form class to add a comment
+    """
     class Meta:
         model = Comment
         fields = ('body',)
-

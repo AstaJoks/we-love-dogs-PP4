@@ -2,10 +2,10 @@
 {% load static % }
 {% block content %}
 
-<!-- Hero Section -->
+<!-- HERO SECTION -->
 <section class="home-image jumbotron-overlay jumbotron-fluid py-md-5 d-flex align-items-center">
-    <div class="container d-flex justify-content-center">
-      <div class="hero-text text-center text-wrap main-text">
+  <div class="container d-flex justify-content-center">
+    <div class="hero-text text-center text-wrap main-text">
         <h1 class="lead display-1 fs-1">Welcome to our WeLoveDogs Blog!</h1>
         <p class="fs-4">A community build around the love for all breed of dogs.</p>
         {% if user.is_authenticated %}
@@ -13,27 +13,25 @@
         {% else %}
         <a class="btn btn-light btn-lg" href="{% url 'account_signup' %}" role="button">Join Us</a>
         {% endif %}
-      </div>
     </div>
-  </section>
+  </div>
+</section>
 
   <div class="text-center">
     <blockquote class="blockquote">
       <p>"The world would be a nicer place if everyone had the ability to love as unconditionally as a dog."</p>
     </blockquote>
-    <figcaption class="blockquote-footer">
-    <cite title="Source Title">- M.K.Clinton</cite>
-    </figcaption>
+      <figcaption class="blockquote-footer">
+        <cite title="Source Title">- M.K.Clinton</cite>
+      </figcaption>
   </div>
-  <!-- Hero Section -->
-  
-  <!-- Page Divider -->
+
+  <!-- PAGE DIVIDER -->
   <div class="container">
     <hr class="my-4">
   </div>
-  <!-- Page Divider -->
-  
-  <!-- About Us Section -->
+
+  <!-- ABOUT US SECTION -->
   <section class="py-3 text-center">
     <div class="container px-4">
       <div class="row align-items-center text-center">
@@ -72,21 +70,19 @@
               <p>Hello, fellow puppy lovers!
                   If you are the proud parent of adorable pooch and love sharing about your dog’s delightful moments, we are the perfect community for you!
                   We are members of a pack of people who love dogs, know about dogs, and love sharing the dog life with each other. Life with dogs is rich, and the richness of life grows richer when it is shared.
-                  </p>
-            </div>
+              </p>
           </div>
         </div>
       </div>
-    </section>
-  <!-- About Us Section -->
+    </div>
+  </section>
   
-  <!-- Page Divider -->
+  <!-- PAGE DIVIDER -->
   <div class="container">
     <hr class="my-4">
   </div>
-  <!-- Page Divider -->
-  
-  <!-- Card Section for Builds -->
+
+  <!-- CARDS SECTION FOR SHARE, LEARN AND INTERACT -->
   <section class="py-1">
     <div class="container align-items-center justify-content-center">
       <div class="row">
@@ -120,12 +116,10 @@
       </div>
     </div>
   </section>
-  <!-- Card Section for Builds -->
   
-  <!-- Page Divider -->
+  <!-- PAGE DIVIDER -->
   <div class="container">
     <hr class="my-4">
   </div>
-  <!-- Page Divider -->
   
   {% endblock %}

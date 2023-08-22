@@ -35,11 +35,13 @@ class Post(models.Model):
 
     def __str__(self):
         return str(self.author) + " Blog Title: " + self.title
-
+    """
+    Get the absolute URL of a Blog page
+    """
     def get_absolute_url(self):
         return reverse('blog')
     """
-    Returns post title, number of likes and comments
+    Returns Post title, number of likes and comments
     """
     def number_of_likes(self):
         return self.likes.count()
@@ -50,7 +52,7 @@ class Post(models.Model):
 
 class Comment(models.Model):
     """
-    A class for the comment model
+    A class for the Comment Model
     """
     post = models.ForeignKey(Post, on_delete=models.CASCADE,
                              related_name="comments")
