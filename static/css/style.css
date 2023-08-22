@@ -193,3 +193,10 @@ img.footer-logo {
     color: #c00903;
 }
 
+.post-delete {
+    background-color: #e7d3b5;
+    border: 1px solid #141414;
+    box-shadow: 2px 3px 10px 2px #141414;
+    color: #141414;
+}
+
