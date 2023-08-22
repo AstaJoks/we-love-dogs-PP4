@@ -5,12 +5,17 @@ body {
 
 .btn {
     background-color: #e6b265;
-    border: 1px solid black;
-    box-shadow: 2px 3px 10px 2px black;
-    color: black;
+    border: 1px solid #141414;
+    box-shadow: 2px 3px 10px 2px #141414;
+    color: #141414;
     font-weight: bold;
     margin-top: 2rem;
     margin-bottom: 1rem;
+}
+
+.btn:hover {
+    background-color: #141414;
+    color: #e7d3b5;
 }
 
 /*-- NAVIGATION --*/
@@ -127,7 +132,7 @@ img.footer-logo {
 
 .masthead-text {
     background-color: #e6b265;
-    color: black;
+    color: b#141414;
 }
 
 .post-title {
@@ -137,7 +142,7 @@ img.footer-logo {
 
 .post-subtitle {
     margin-left: 5%;
-    color: black;
+    color: #141414;
 }
 
 
@@ -170,4 +175,15 @@ img.footer-logo {
     background-color: #e7d3b5;
     box-shadow: 5px 5px 8px 4px;
     text-align: center;
+}
+
+
+/*-- EDIT POST BUTTON --*/
+
+.post-edit {
+    background-color: #e7d3b5;
+    border: 1px solid #141414;
+    box-shadow: 2px 3px 10px 2px #141414;
+    color: #141414;
+    margin-top: 4rem;
 }

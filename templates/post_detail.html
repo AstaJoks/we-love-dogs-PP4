@@ -6,14 +6,13 @@
     <div class="container masthead">
         <div class="row g-0 masthead-text">
             <div class="card">
-                <h1 class="post-title">{{ post.title }}</h1>
-                <p class="post-subtitle">{{ post.author }} | {{ post.created_on }} | {{ post.number_of_comments }} comments</p>
-                <hr>
                 {% if user.is_authenticated %}
                 {% if user.id == post.author.id %}
-                <a href="{% url 'update-post' post.pk %}" class="btn detailed-post">Edit Post</a>
+                <a href="{% url 'update-post' post.pk %}" class="btn btn-lg post-edit">Edit Post</a>
                 {% endif %}
                 {% endif %}
+                <h1 class="post-title">{{ post.title }}</h1>
+                <p class="post-subtitle">{{ post.author }} | {{ post.created_on }} | {{ post.number_of_comments }} comments</p>
             </div>
         </div>
     <div class="row g-0">
@@ -101,7 +100,7 @@
                 <form method="post" style="margin-top: 1.3em;">
                     {{ comment_form | crispy }}
                     {% csrf_token %}
-                    <button type="submit" class="btn btn-dark btn-lg">Add Comment</button>
+                    <button type="submit" class="btn">Add Comment</button>
                 </form>
                 {% endif %}
                 {% endif %}
