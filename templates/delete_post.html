@@ -13,7 +13,7 @@
         <h3 class="text-center">Would you like to delete "{{ post.title }}"?</h3>
             <br>
             {% csrf_token %}
-            <strong>All data of this post will be permanently deleted!</strong>
+            <strong class="delete-message">All data of this post will be permanently deleted!</strong>
             <br/>
             <button class="btn">Delete Post</button>
         </form>

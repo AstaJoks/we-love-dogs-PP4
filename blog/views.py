@@ -125,3 +125,10 @@ class PostLike(View):
             post.likes.add(request.user)
 
         return HttpResponseRedirect(reverse('post_detail', args=[slug]))
+
+
+def handler404(request, exception):
+    """
+    Displays a custom 404 error page.
+    """
+    return render(request, '404.html', status=404)

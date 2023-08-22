@@ -9,7 +9,7 @@
                 {% if user.is_authenticated %}
                 {% if user.id == post.author.id %}
                 <a href="{% url 'update_post' post.pk %}" class="btn post-edit">Edit Post</a>
-                <a href="{% url 'delete_post' post.pk %}" class="btn post-edit">Delete Post</a>
+                <a href="{% url 'delete_post' post.pk %}" class="btn post-delete">Delete Post</a>
                 {% endif %}
                 {% endif %}
                 <h1 class="post-title">{{ post.title }}</h1>
