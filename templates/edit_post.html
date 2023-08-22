@@ -1,0 +1,16 @@
+{% extends 'base.html' %}
+{% load static % }
+{% block content %}
+<div class="container form-style">
+    <div class="form-group p-5 mb-5 post-card border border-dark border-2 rounded-3">
+        <h2>Edit Post</h2>
+        <hr>
+        <form enctype="multipart/form-data" method="POST"> {% csrf_token %}
+            <div class="container mt-4">
+                {{ form.as_p }}
+                <button class="btn edit-post">Edit post</button>
+            </div>
+        </form>
+    </div>
+</div>
+{% endblock  %}

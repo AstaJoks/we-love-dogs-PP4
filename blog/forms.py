@@ -9,11 +9,17 @@ class PostForm(forms.ModelForm):
     """
     class Meta:
         model = Post
-        fields = [
-            'title',
-            'content',
-            'featured_image',
-        ]
+        fields = ('title', 'content', 'featured_image')
+
+
+class EditPostForm(forms.ModelForm):
+    """
+    Form class to edit a post
+    """
+
+    class Meta:
+        model = Post
+        fields = ('title', 'content', 'featured_image')
 
 
 class CommentForm(forms.ModelForm):
