@@ -5,6 +5,7 @@ from django.http import HttpResponseRedirect
 from .models import Post, Comment
 from .forms import CommentForm, PostForm, EditPostForm
 from django.shortcuts import render, redirect
+from django.urls import reverse_lazy
 from django.contrib import messages
 from django.contrib.messages.views import SuccessMessageMixin
 
@@ -48,12 +49,13 @@ class UpdatePost(SuccessMessageMixin, UpdateView):
 
 class DeletePost(SuccessMessageMixin, DeleteView):
     """View to delete the users post"""
-    model = BlogPost
+    model = Post
     template_name = 'delete_post.html'
     success_url = reverse_lazy('blog')
     success_message = "Your post has been successfully deleted!"
 
     def delete(self, request, *args, **kwargs):
+        """Function for succcess message"""
         messages.success(self.request, self.success_message)
         return super(DeletePost, self).delete(request, *args, **kwargs)
 

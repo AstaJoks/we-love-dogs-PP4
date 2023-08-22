@@ -178,8 +178,7 @@ img.footer-logo {
 }
 
 
-/*-- EDIT POST BUTTON --*/
-
+/*-- EDIT POST FORM --*/
 .post-edit {
     background-color: #e7d3b5;
     border: 1px solid #141414;
@@ -187,3 +186,10 @@ img.footer-logo {
     color: #141414;
     margin-top: 4rem;
 }
+
+
+/*-- DELETE POST FORM --*/
+.delete-message {
+    color: #c00903;
+}
+
