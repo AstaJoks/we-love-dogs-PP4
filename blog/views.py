@@ -38,6 +38,14 @@ class CreatePost(SuccessMessageMixin, CreateView):
         return super(CreatePost, self).form_valid(form)
 
 
+class UpdatePost(SuccessMessageMixin, UpdateView):
+    """View to edit the users post"""
+    model = Post
+    template_name = 'edit_post.html'
+    form_class = EditPostForm
+    success_message = 'Your post has been successfully updated!'
+
+
 class PostDetail(View):
     """View to render a Blog Posts Details"""
 
