@@ -60,6 +60,10 @@ img.logo {
     padding: 40px;
 }
 
+.blockquote-text {
+    font-size: 1rem;
+}
+
 
 /*-- ABOUT US SECTION --*/
 .carousel-inner {
