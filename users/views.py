@@ -8,7 +8,7 @@ from .forms import UpdateUserForm
 
 @login_required
 def profile(request):
-    """create,update user profile"""
+    """Create, Update user profile"""
     profile = Profile.objects.get_or_create(user=request.user)
     if request.method == 'POST':
         user_form = UpdateUserForm(request.POST, instance=request.user)
@@ -24,5 +24,7 @@ def profile(request):
         user_form = UpdateUserForm(instance=request.user)
         profile_form = UpdateProfileForm(instance=request.user.profile)
 
-    return render(request, 'users/profile.html', {'user_form': user_form,
-                                                'profile_form': profile_form})
+    return render(
+        request,
+        'users/profile.html',
+        {'user_form': user_form, 'profile_form': profile_form})
