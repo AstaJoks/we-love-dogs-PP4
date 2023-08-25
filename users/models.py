@@ -8,7 +8,7 @@ class Profile(models.Model):
     bio = models.TextField(max_length=500, blank=True)
     location = models.CharField(max_length=30, blank=True)
     birth_date = models.DateField(null=True, blank=True)
-    image = CloudinaryField('profile_image', default='user-default')
+    image = CloudinaryField('image')
 
     def __str__(self):
         return f'{self.user.username} Profile'
