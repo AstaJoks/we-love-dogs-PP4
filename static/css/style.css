@@ -206,3 +206,20 @@ img.footer-logo {
 }
 
 
+/*-- PROFILE --*/
+.profile-pic {
+    border: 2px solid #e6b265;
+    width: 10%;
+  }
+
+  .profile-pic-comment {
+    border: 2px solid #e6b265;
+    width: 50%;
+  }
+
+  .profile-pic-form {
+    border: 1px solid #141414;
+    width: 50%;
+  }
+    
+

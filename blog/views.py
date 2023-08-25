@@ -99,6 +99,9 @@ class PostDetail(View):
             comment = comment_form.save(commit=False)
             comment.post = post
             comment.save()
+            messages.success(request, "Comment Added Successfully!")
+            return HttpResponseRedirect(reverse('post_detail', args=[slug]))
+
         else:
             comment_form = CommentForm()
 

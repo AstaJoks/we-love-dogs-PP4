@@ -13,9 +13,9 @@
             <form method="post" enctype="multipart/form-data">
             <!-- User Image -->
             {% if user.profile.image %}
-            <img src="{{ user.profile.image.url }}" alt="User Image" width="100%">
+            <img class="profile-pic-form rounded" src="{{ user.profile.image.url }}" alt="User Image" width="100%">
             {% else %}
-            <img class="img-responsive" src="https://res.cloudinary.com/dcydt01ed/image/upload/v1692970959/default_zitnfg.png" alt="User Image" width="100%">
+            <img class="profile-pic-form rounded" src="https://res.cloudinary.com/dcydt01ed/image/upload/v1692970959/default_zitnfg.png" alt="User Image" width="100%">
             {% endif %}
             <!-- Username -->
             <div class="form-group ">
