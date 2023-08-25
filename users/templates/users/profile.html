@@ -10,23 +10,23 @@
 <div class="container form-style">
     <div class="p-5 mb-5 card-welcome border border-dark border-2 rounded-3 justify-content-center">
         <h1 class="card-title">Your Profile</h1>
-        <form method="post" enctype="multipart/form-data">
+            <form method="post" enctype="multipart/form-data">
+            <!-- User Image -->
             {% if user.profile.image %}
             <img src="{{ user.profile.image.url }}" alt="User Image" width="100%">
             {% else %}
-            <img class="img-responsive" src="https://res.cloudinary.com/dcydt01ed/image/upload/v1692922372/media/default_xzfwml.png" width="100%">
+            <img class="img-responsive" src="https://res.cloudinary.com/dcydt01ed/image/upload/v1692970959/default_zitnfg.png" alt="User Image" width="100%">
             {% endif %}
-                        <!-- Username -->
-                        <div class="form-group ">
-                            <label>Username:</label>
-                            {{ user_form.username }}
-                        </div>
-                        {% csrf_token %}
-                        {{ profile_form | crispy }}
+            <!-- Username -->
+            <div class="form-group ">
+                <label>Username:</label>
+                {{ user_form.username }}
             </div>
-                <div><button class="btn">Update profile</button></div>
+                {% csrf_token %}
+                {{ profile_form | crispy }}
+            <div><button class="btn">Update profile</button></div>
     </div>
-        </form>
+            </form>
 </div>
 
 {% endblock %}

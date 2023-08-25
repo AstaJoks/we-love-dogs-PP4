@@ -121,7 +121,7 @@ img.footer-logo {
 
 /*-- LOGIN/REGISTER FORMS --*/
 .card-welcome {
-    margin-top: 4rem;
+    margin-top: 3rem;
     background-color: #e7d3b5;
     box-shadow: 5px 5px 8px 4px;
     text-align: center;
@@ -204,4 +204,5 @@ img.footer-logo {
     box-shadow: 2px 3px 10px 2px #141414;
     color: #141414;
 }
+
 
