@@ -163,6 +163,10 @@ img.footer-logo {
     border: none;
 }
 
+a {
+    color: inherit;
+}
+
 
 /*-- FORMS --*/
 .card-title {

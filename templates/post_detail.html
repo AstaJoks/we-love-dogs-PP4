@@ -13,7 +13,8 @@
                 {% endif %}
                 {% endif %}
                 <h1 class="post-title">{{ post.title }}</h1>
-                <p class="post-subtitle">{{ post.author }} | {{ post.created_on }} | {{ post.number_of_comments }} comments</p>
+                <p class="post-subtitle">{{ post.author }} | {{ post.created_on }} | 
+                <a href="#comments"> {{ post.number_of_comments }} comments</p></a>
             </div>
         </div>
     <div class="row g-0">
@@ -70,7 +71,7 @@
     </div>
     <div class="row">
         <div class="col-md-8 card mb-4  mt-3 ">
-            <h3>Comments:</h3>
+            <h3 id="comments">Comments:</h3>
             <div class="card-body">
                 {% for comment in comments %}
                 <div class="comments" style="padding: 10px;">
@@ -108,5 +109,6 @@
         </div>
     </div>
 </div>
+
 
 {% endblock content %}
