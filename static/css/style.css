@@ -31,10 +31,6 @@ img.logo {
     background-color: #141414;
 }
 
-.main-bg {
-    background-color: #F9FAFC;
-}
-
 
 /*-- HERO SECTION --*/
 .home-image {
@@ -111,7 +107,7 @@ img.footer-logo {
 }
 
 .social-networks i {
-    color: #DADAD2;
+    color: #fff;
 }
 
 .login-form {

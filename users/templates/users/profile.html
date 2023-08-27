@@ -22,10 +22,11 @@
                 <label>Username:</label>
                 {{ user_form.username }}
             </div>
+            <!-- Profile Form -->
                 {% csrf_token %}
                 {{ profile_form | crispy }}
-            <div><button class="btn">Update profile</button></div>
-            <a class="btn" href="{% url 'create_post' %}" role="button">Create Post</a>
+            <div><button class="btn btn-light">Update profile</button></div>
+            <a class="btn btn-light" href="{% url 'create_post' %}" role="button">Create Post</a>
     </div>
             </form>
 </div>

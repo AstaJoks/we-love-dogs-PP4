@@ -4,6 +4,9 @@ from cloudinary.models import CloudinaryField
 
 
 class Profile(models.Model):
+    """
+    A class for the Profile model
+    """
     user = models.OneToOneField(User, on_delete=models.CASCADE)
     bio = models.TextField(max_length=500, blank=True)
     location = models.CharField(max_length=30, blank=True)

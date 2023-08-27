@@ -6,27 +6,21 @@
 
 {% block content %}
 
+<!-- Contact Us Form -->
 <div class="container form-style">
     <div class="container text-right">
         <div class="p-5 mb-5 card-welcome border border-dark border-2 rounded-3">
-        <h1>Contact us</h1>
-        <form method="post">
-            <div class="form-group">
-                {% csrf_token %}
-                {{ contact_form | crispy }}
-            </div>
-            <p><input type="submit" value="Submit"
-                    class="btn text-center">
-            </p>
-        </form>
-        <div>
-            <a href="/" aria-label="Cancel button"
-                class="btn text-center">
-                Cancel
-            </a>
+                <h1>Contact us</h1>
+                <form method="post">
+                <div class="form-group">
+                    {% csrf_token %}
+                    {{ contact_form | crispy }}</div>
+                    <p><input type="submit" value="Submit" class="btn text-center btn-light"></p>
+                </form>
+                <div>
+                <a href="/" aria-label="Cancel button" class="btn text-center btn-light">Cancel</a>
         </div>
     </div>
-</div>
 </div>
 
 {% endblock %}
