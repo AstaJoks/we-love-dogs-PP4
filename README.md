@@ -21,17 +21,15 @@ You can view the live site here: [WeLoveDogs](https://we-love-dogs-pp4-3e532b8b5
     - [Site Owner Goals](#site-owner-goals)
     - [Agile Methodology](#agile-methodology)
       - [Epics and User Stories](#epics-and-user-stories)
-  - [The-Scope-Plane](#the-scope-plane)
-  - [The-Skeleton-Plane](#the-skeleton-plane)
+  - [The Scope Plane](#the-scope-plane)
+  - [The Skeleton Plane](#the-skeleton-plane)
     - [Wireframes](#wireframes)
-    - [Database-Design](#database-design)
-    - [Security](#security)
-  - [The-Structure-Plane](#the-structure-plane)
+    - [Database Design](#database-design)
+  - [The Structure Plane](#the-structure-plane)
     - [Features](#features)
     - [Features Left To Implement](#features-left-to-implement)
-  - [The-Surface-Plane](#the-surface-plane)
-    - [Design](#design)
-    - [Colour-Scheme](#colour-scheme)
+  - [The Surface Plane(Design)](#the-surface-plane-design)
+    - [Colour Scheme](#colour-scheme)
     - [Typography](#typography)
     - [Imagery](#imagery)
 - [Technologies](#technologies)
@@ -154,8 +152,6 @@ Back to [top](#table-of-contents)<hr>
 -  Home page with Blog Information
 
 
-
-
 ## The Skeleton Plane
 
 ### Wireframes
@@ -201,14 +197,32 @@ Back to [top](#table-of-contents)<hr>
    <p><img src="https://res.cloudinary.com/dcydt01ed/image/upload/v1693263389/10._404_Page_pcagbr.png" width="400px" height="auto"  alt="Wireframe 404 Page"></p>
 
 
-
-
 ### Database Design
 
 - The database models and fields were planned and outlined using an Database Diagram in [Lucidchart](https://lucid.co/).
 
 <p><img src="https://res.cloudinary.com/dcydt01ed/image/upload/v1693246380/Database_Diagram_tzuyo0.png" width="700px" height="auto"  alt="Database Design"></p>
 
+Back to [top](#table-of-contents)<hr>
+
+
+## The Surface Plane(Design)
+
+The Home page, Log-in, Signup Age group and Contact pages can be accessed by all users. Once a user logs in or signs-up, they have access to the Reviews dropdown that shows Add review or see reviews. The Signup page is removed from the navbar once the user logs in, and the log-in page is changed to a log-out page.
+
+### Colour Scheme
+
+  - The four main colours used are: 
+     - Light Colour: #F9FAFC -for the body
+     - Dark Colour: #141414 - for the footer and shadows
+     - Orange/Brown Colour: #e6b265 - for the buttons and post detail decor
+     - Light orange/brown Colour: #e7d3b5 - for the forms
+
+<p><img src="https://res.cloudinary.com/dcydt01ed/image/upload/v1693265122/colour_nroimo.png" width="300px" height="auto"  alt="Colour"></p>
+
+### Typography
+
+- One font was chosen for this website, and that was Roboto from google fonts. It is clear and simple to read.
 
 ## Technologies
 
