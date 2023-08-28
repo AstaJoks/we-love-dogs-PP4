@@ -28,7 +28,8 @@ You can view the live site here: [WeLoveDogs](https://we-love-dogs-pp4-3e532b8b5
   - [The Structure Plane](#the-structure-plane)
     - [Features](#features)
     - [Features Left To Implement](#features-left-to-implement)
-  - [The Surface Plane(Design)](#the-surface-plane-design)
+  - [The Surface Plane](#the-surface-plane)
+    - [Design](#design)
     - [Colour Scheme](#colour-scheme)
     - [Typography](#typography)
     - [Imagery](#imagery)
@@ -206,9 +207,11 @@ Back to [top](#table-of-contents)<hr>
 Back to [top](#table-of-contents)<hr>
 
 
-## The Surface Plane(Design)
+## The Surface Plane
 
-The Home page, Log-in, Signup Age group and Contact pages can be accessed by all users. Once a user logs in or signs-up, they have access to the Reviews dropdown that shows Add review or see reviews. The Signup page is removed from the navbar once the user logs in, and the log-in page is changed to a log-out page.
+## Design
+
+- The Design of WeLoveDogs is clean and modern, with a focus on readability and ease of use.
 
 ### Colour Scheme
 
@@ -223,6 +226,13 @@ The Home page, Log-in, Signup Age group and Contact pages can be accessed by all
 ### Typography
 
 - One font was chosen for this website, and that was Roboto from google fonts. It is clear and simple to read.
+
+### Imagery
+
+- The Website logo was made using CorelDraw.
+
+- Images throughout the website were taken from here: https://wall.alphacoders.com/by_collection.php?id=368
+
 
 ## Technologies
 
