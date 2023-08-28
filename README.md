@@ -87,12 +87,14 @@ The Agile Methodology was used to plan this project. This was implemented throug
 
 <p><img src="https://res.cloudinary.com/dcydt01ed/image/upload/v1693257705/agile_hkpmnq.png" width="700px" height="auto"  alt="Kanban Board"></p>
 
+Github issues were used to create User Stories for the project. This is where the project user was assigned. Labels were added to show at a glance importance of tasks and help prioritize jobs
+
 ### Epics and User Stories
 
 The project had 7 main Epics (Milestones) and 28 User Stories:
 
 **EPIC 1 - Base Setup**
- - User Sories
+- User Sories
    - 1. As a Developer, I need to set up the project so that it is ready for implementing the core features
    - 2. As a Developer, I need to create static resources so that images, css and work on the website
    - 3. As a Developer, I need to create the navbar so that users can navigate the website from any device
@@ -100,17 +102,17 @@ The project had 7 main Epics (Milestones) and 28 User Stories:
    - 5. As a Developer, I need to create the footer with social media links
 
 **EPIC 2 - Deployment**
-  - User Stories
+- User Stories
    - 6. As a Developer, I need to deploy the project to heroku so that it is live for customers
    - 7. As a Developer, I need to set up whitenoise so that my static files are served in deployment
 
 **EPIC 3 - Plan and create frontend layout**
-  User Stories
+- User Stories
    - 8. As a Developer, I can create wireframes so that the layout of the website is clear for desktop and mobile
    - 9. As a User, I want the website to be responsive so I can view it on my mobile
 
 **EPIC 4 - Blog**
-  User Stories
+- User Stories
    - 10. As a User, I want to view a list of blog posts so that I can decide which one I want to read
    - 11. As a User, I can open post details so I can see detailed post information, like it or leave a comment
    - 12. As a User, I can like or unlike a post so that I can interact with the content
@@ -121,22 +123,22 @@ The project had 7 main Epics (Milestones) and 28 User Stories:
    - 17. As an Admin, I can create draft posts so that I can finish writing the content later
    - 18. As an Admin, I can create, read, update and delete posts and comments so that I can manage my blog content
 
-  **EPIC 5 - Authentication**
-  User Stories
+**EPIC 5 - Authentication**
+- User Stories
    - 19. As a Developer, I need to implement allauth so that users can sign up and have access to the websites features
    - 20. As a Site Owner, I would like the allauth pages customized to that they fit in with the sites styling
    - 21. As an Admin, I can log in to Site Administration so I can access the back end of the site
 
-  **EPIC 6 - Stand Alone Pages**
-  User Stories
+**EPIC 6 - Stand Alone Pages**
+- User Stories
   - 22. As a Site Owner, I would like a home page so that visitors can view information about my Blog
   - 23. As a User, I would like to be able to see my profile so that I can view my details or add my photo
   - 24. As a User, I would like to be able to contact the Blog Owner so that I can report any issue with the website
   - 25. As a Developer, I need to implement a 404 error page to alert users when they have accessed a page that doesn't exist
   - 26. As a Developer, I need to implement a 500 error page to alert users when an internal server error occurs
 
-  **EPIC 7 - Documentation and testing**
-  Tasks
+**EPIC 7 - Documentation and testing**
+- Tasks
   - 27. Complete ReadMe documentation
   - 28. Complete Testing Documentation
 
@@ -154,8 +156,6 @@ The project had 7 main Epics (Milestones) and 28 User Stories:
 - The database models and fields were planned and outlined using an Database Diagram in [Lucidchart](https://lucid.co/).
 
 <p><img src="https://res.cloudinary.com/dcydt01ed/image/upload/v1693246380/Database_Diagram_tzuyo0.png" width="700px" height="auto"  alt="Database Design"></p>
-
-Github issues were used to create User Stories and Bugs for the project. This is where the project user was assigned. Labels were added to show at a glance importance of tasks and help prioritize jobs.
 
 
 ## Technologies
