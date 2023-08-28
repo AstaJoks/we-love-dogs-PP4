@@ -1,7 +1,12 @@
-# **We Love Dogs - Project Portfolio 4**
+![Logo](https://res.cloudinary.com/dcydt01ed/image/upload/c_scale,w_174/v1693250495/raudonas_gvmzge.png) 
 
-WeLoveDogs is a blog website aimed at a community of dog lovers that would like to get regular tips and tricks about dogs care and
-share their dog’s delightful moments.
+# Introduction
+
+WeLoveDogs is a blog website build using Django, Javascript, CSS, and HTML. It's designed for a community of dog lovers that would like to get regular tips and tricks about dogs care and
+share their dog’s delightful moments. Whether you want yo show off original photo and a story of YOUR dog, get regular tips and tricks about dogs care, or connect with other dog owners, WeLoveDogs is the place to do it.
+
+This blog is a project for the Code Institute Diploma in Software Development with eCommerce. On WeLoveDogs, users can sign up, and create, edit or delete their own post and comment on the other user's posts.
+They can also set up and manage their personal profiles. Join WeLoveDogs and connect with a community build around the love for all breed of dogs.
 
 ![Responsive Mockup](https://res.cloudinary.com/dcydt01ed/image/upload/v1693179690/mock_up2_espnb1.png)
 
@@ -10,7 +15,7 @@ You can view the live site here: [WeLoveDogs](https://we-love-dogs-pp4-3e532b8b5
 ## Table of Contents
 - [We Love Dogs](#we-love-dogs)
   - [Table of Contents](#table-of-contents)
-- [User-Experience-Design](#user-experience-design)
+- [User Experience (UX)](#user-experience-ux)
   - [The-Strategy-Plane](#the-strategy-plane)
     - [Site-Goals](#site-goals)
     - [Agile Planning](#agile-planning)
@@ -38,6 +43,17 @@ You can view the live site here: [WeLoveDogs](https://we-love-dogs-pp4-3e532b8b5
     - [Fork Project](#fork-project)
 - [Credits](#credits)
 - [Acknowledgments](#acknowledgments)
+
+
+# User Experience (UX)
+
+## The Strategy Plane
+
+WeLoveDogs is designed to be a welcoming online blog where users can share,
+
+### Site Goals
+
+### Site Goals
 
 ## The Skeleton Plane
 
