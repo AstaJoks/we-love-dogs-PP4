@@ -25,7 +25,7 @@
     - [Colour-Scheme](#colour-scheme)
     - [Typography](#typography)
     - [Imagery](#imagery)
-- [Technolgies](#technolgies)
+- [Technologies](#technologies)
 - [Testing](#testing)
 - [Deployment](#deployment)
     - [Version Control](#version-control)
@@ -34,6 +34,36 @@
     - [Fork Project](#fork-project)
 - [Credits](#credits)
 - [Acknowledgments](#acknowledgments)
+
+
+## Technologies
+
+- HTML
+  - The structure of the Website was developed using HTML as the main language.
+- CSS
+  - The Website was styled using custom CSS in an external file.
+- JavaScript
+  - JavaScript was used to manipulate the DOM .
+- Python
+  - Python was the main programming language used for the application using the Django Framework.
+- GitHub
+  - Source code is hosted on GitHub
+- Git
+  - Used to commit and push code during the development of the Website
+- Font Awesome
+  - This was used for various icons throughout the site
+- Heroku
+  - Heroku was used for live website deployment.
+- Cloudinary
+  - Cloudinary is a cloud storage solution for website media and other static files. It also allows for the manipulation and optimization of media delivery.
+- Bootstrap
+  - Bootstrap was used throughout the site for responsiveness, layout, and predefined style elements.
+- Favicon.io
+  - favicon files were created at https://favicon.io/favicon-converter/
+- balsamiq
+  - wireframes were created using balsamiq from https://balsamiq.com/wireframes/desktop/#
+- CorelDraw
+  - This was used to create the logo in header.
 
 ## Deployment
 
@@ -54,7 +84,7 @@ The Site was created using gitpod workspace and pushed to github.
 Before deployment on Heroku, two files need to be created and be up to date, a `requirements.txt` file and a `Procfile`.
 
 - The `requirements.txt` file is created by executing the following command in the terminal window: ` pip3 freeze --local > requirements.txt`. A file with all requirements will be created.
-- Then create a file named `Procfile` and insert the following code: `web: gunicorn worldtravels.wsgi`, with no empty lines after it.
+- Then create a file named `Procfile` and insert the following code: `web: gunicorn welovedogs.wsgi`, with no empty lines after it.
 - Then make sure to push these files to your repository.
 
 **Creating Heroku App**
