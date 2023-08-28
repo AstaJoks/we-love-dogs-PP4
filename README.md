@@ -1,7 +1,11 @@
-# We Love Dogs
+# **We Love Dogs - Project Portfolio 4**
+
+WeLoveDogs is a blog website aimed at a community of dog lovers that would like to get regular tips and tricks about dogs care and
+share their dog’s delightful moments.
 
 ![Responsive Mockup](https://res.cloudinary.com/dcydt01ed/image/upload/v1693179690/mock_up2_espnb1.png)
-[WeLoveDogs - Live Webpage](https://we-love-dogs-pp4-3e532b8b5551.herokuapp.com/) (Right-click to open in a new tab) 
+
+You can view the live site here: [WeLoveDogs](https://we-love-dogs-pp4-3e532b8b5551.herokuapp.com/) (Right-click to open in a new tab) 
 
 ## Table of Contents
 - [We Love Dogs](#we-love-dogs)
@@ -34,6 +38,14 @@
     - [Fork Project](#fork-project)
 - [Credits](#credits)
 - [Acknowledgments](#acknowledgments)
+
+## The Skeleton Plane
+
+### Database Design
+
+- The database models and fields were planned and outlined using an Database Diagram in [Lucidchart](https://lucid.co/).
+
+<p><img src="https://res.cloudinary.com/dcydt01ed/image/upload/v1693246380/Database_Diagram_tzuyo0.png" width="600px" height="auto"  alt="Database Design"></p>
 
 
 ## Technologies
