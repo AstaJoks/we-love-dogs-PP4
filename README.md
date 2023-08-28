@@ -15,20 +15,20 @@ You can view the live site here: [WeLoveDogs](https://we-love-dogs-pp4-3e532b8b5
 - [We Love Dogs](#we-love-dogs)
   - [Table of Contents](#table-of-contents)
 - [User Experience (UX)](#user-experience-ux)
-  - [The-Strategy-Plane](#the-strategy-plane)
+  - [The Strategy Plane](#the-strategy-plane)
     - [Site Goals](#site-goals)
     - [User Goals](#user-goals)
     - [Site Owner Goals](#site-owner-goals)
     - [Agile Methodology](#agile-methodology)
       - [Epics and User Stories](#epics-and-user-stories)
-- [The-Scope-Plane](#the-scope-plane)
-  - [The-Structure-Plane](#the-structure-plane)
-    - [Features](#features)
-    - [Features Left To Implement](#features-left-to-implement)
+  - [The-Scope-Plane](#the-scope-plane)
   - [The-Skeleton-Plane](#the-skeleton-plane)
     - [Wireframes](#wireframes)
     - [Database-Design](#database-design)
     - [Security](#security)
+  - [The-Structure-Plane](#the-structure-plane)
+    - [Features](#features)
+    - [Features Left To Implement](#features-left-to-implement)
   - [The-Surface-Plane](#the-surface-plane)
     - [Design](#design)
     - [Colour-Scheme](#colour-scheme)
@@ -142,14 +142,66 @@ The project had 7 main Epics (Milestones) and 26 User Stories:
   - Complete ReadMe documentation
   - Complete Testing Documentation
 
+Back to [top](#table-of-contents)<hr>
 
 
+## The Scope Plane
 
+-  Responsive Design - Site should be fully functional on all devices from 320px up
+-  Hamburger menu for mobile devices
+-  Ability to perform CRUD functionality on Posts(User and Admin)
+-  Restricted detail blog view while unauthorised user
+-  Home page with Blog Information
 
 
 
 
 ## The Skeleton Plane
+
+### Wireframes
+
+- Home Page
+
+   <p><img src="https://res.cloudinary.com/dcydt01ed/image/upload/v1693263389/1._Home_Page_kg9k2c.png" width="400px" height="auto"  alt="Wireframe Home Page"></p>
+
+- Contact Us
+
+   <p><img src="https://res.cloudinary.com/dcydt01ed/image/upload/v1693263388/2._Contact_Us_dxcc17.png" width="400px" height="auto"  alt="Wireframe Contact Us"></p>
+
+- Blog
+
+   <p><img src="https://res.cloudinary.com/dcydt01ed/image/upload/v1693263389/3._Blog_Page_uxcard.png" width="400px" height="auto"  alt="Wireframe Blog"></p>
+
+- Join us
+
+   <p><img src="https://res.cloudinary.com/dcydt01ed/image/upload/v1693263388/4._Join_Us_Page_xt8e7k.png" width="400px" height="auto"  alt="Wireframe Join Us"></p>
+
+- Log In
+
+   <p><img src="https://res.cloudinary.com/dcydt01ed/image/upload/v1693263389/5._Log_In_Page_baucio.png" width="400px" height="auto"  alt="Wireframe Log In"></p>
+
+- Post Detail
+
+   <p><img src="https://res.cloudinary.com/dcydt01ed/image/upload/v1693263389/6._Post-Detail_Page_ibrpw9.png" width="400px" height="auto"  alt="Wireframe Post Detail"></p>
+
+- Create Post
+
+   <p><img src="https://res.cloudinary.com/dcydt01ed/image/upload/v1693263389/7._Create_Post_Page_qw48n6.png" width="400px" height="auto"  alt="Wireframe Create Post"></p>
+
+- Edit-Delete
+
+   <p><img src="https://res.cloudinary.com/dcydt01ed/image/upload/v1693263389/8._Edit-Delete_My_Post_pxotbl.png" width="400px" height="auto"  alt="Wireframe Edit-Delete Post"></p>
+
+- Profile
+
+   <p><img src="https://res.cloudinary.com/dcydt01ed/image/upload/v1693263389/9._Profile_Page_tqpfsy.png" width="400px" height="auto"  alt="Wireframe Profile"></p>
+
+- 404 Page
+
+   <p><img src="https://res.cloudinary.com/dcydt01ed/image/upload/v1693263389/10._404_Page_pcagbr.png" width="400px" height="auto"  alt="Wireframe 404 Page"></p>
+
+
+
 
 ### Database Design
 
