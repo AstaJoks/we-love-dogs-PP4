@@ -50,31 +50,31 @@ You can view the live site here: [WeLoveDogs](https://we-love-dogs-pp4-3e532b8b5
 
 ### Site Goals
 
-- To provide users with a place to find some tips about dogs care
-- To provide users with a place to share their own dogs stories
-- To provide users a space to connect with other who are crazy about dogs
+- To provide users with a place to find some tips about dogs care.
+- To provide users with a place to share their own dogs stories.
+- To provide users a space to connect with other who are crazy about dogs.
 
 ### User Goals
 
-- To understand what the website is about
-- Easy navigate between website pages
-- Create an account
-- To see blog about Dogs
-- To be able to create, edit and delete own posts
-- To be able to comment on the blog post
-- To be able to create own profile
-- Contact the website owner
+- To understand what the website is about.
+- Easy navigate between website pages.
+- Create an account.
+- To see blog about Dogs.
+- To be able to create, edit and delete own posts.
+- To be able to comment on the blog post.
+- To be able to create own profile.
+- Contact the website owner.
 
 ### Site Owner Goals
 
-- To provide a solution to allow users to see blog, create post, edit and delete posts
-- To provide about us section
-- To provide a blog about dogs
-- Let user to create his/her own post
-- Let user to create his/her own profile
-- Provide way to contact site owner
-- Let user register on the website 
-- Fully responsive and accessible website
+- To provide a solution to allow users to see blog, create post, edit and delete posts.
+- To provide about us section.
+- To provide a blog about dogs.
+- Let user to create his/her own post.
+- Let user to create his/her own profile.
+- Provide way to contact site owner.
+- Let user register on the website.
+- Fully responsive and accessible website.
 
 Back to [top](#table-of-contents)<hr>
 
@@ -86,7 +86,7 @@ The Agile Methodology was used to plan this project. This was implemented throug
 
 <p><img src="https://res.cloudinary.com/dcydt01ed/image/upload/v1693257705/agile_hkpmnq.png" width="700px" height="auto"  alt="Kanban Board"></p>
 
-Github issues were used to create User Stories for the project. This is where the project user was assigned. Labels were added to show at a glance importance of tasks and help prioritize jobs
+Github issues were used to create User Stories for the project. This is where the project user was assigned. Labels were added to show at a glance importance of tasks and help prioritize jobs.
 
 ### Epics and User Stories
 
@@ -94,63 +94,65 @@ The project had 7 main Epics (Milestones) and 26 User Stories:
 
 **EPIC 1 - Base Setup**
 - User Sories
-  - As a Developer, I need to set up the project so that it is ready for implementing the core features
-  - As a Developer, I need to create static resources so that images, css and work on the website
-  - As a Developer, I need to create the navbar so that users can navigate the website from any device
-  - As a Developer, I need to create the base.html page and structure so that other pages can reuse the layout
-  - As a Developer, I need to create the footer with social media links
+  - As a Developer, I need to set up the project so that it is ready for implementing the core features.
+  - As a Developer, I need to create static resources so that images, css and work on the website.
+  - As a Developer, I need to create the navbar so that users can navigate the website from any device.
+  - As a Developer, I need to create the base.html page and structure so that other pages can reuse the layout.
+  - As a Developer, I need to create the footer with social media links.
 
 **EPIC 2 - Deployment**
 - User Stories
-  - As a Developer, I need to deploy the project to heroku so that it is live for customers
-  - As a Developer, I need to set up whitenoise so that my static files are served in deployment
+  - As a Developer, I need to deploy the project to heroku so that it is live for customers.
+  - As a Developer, I need to set up whitenoise so that my static files are served in deployment.
 
 **EPIC 3 - Plan and create frontend layout**
 - User Stories
-  - As a Developer, I can create wireframes so that the layout of the website is clear for desktop and mobile
-  - As a User, I want the website to be responsive so I can view it on my mobile
+  - As a Developer, I can create wireframes so that the layout of the website is clear for desktop and mobile.
+  - As a User, I want the website to be responsive so I can view it on my mobile.
 
 **EPIC 4 - Blog**
 - User Stories
-  - As a User, I want to view a list of blog posts so that I can decide which one I want to read
-  - As a User, I can open post details so I can see detailed post information, like it or leave a comment
-  - As a User, I can like or unlike a post so that I can interact with the content
-  - As a User, I can view the number of comments in the post so that I can see how popular is the post
-  - As a User, I can leave comments on a post so that I can be involved in the conversation
-  - As a User, I would like to be able to create a new Blog Post so that I can share my story
-  - As an Admin, I can approve or disapprove comments so that I can filter out objectionable comments
-  - As an Admin, I can create draft posts so that I can finish writing the content later
-  - As an Admin, I can create, read, update and delete posts and comments so that I can manage my blog content
+  - As a User, I want to view a list of blog posts so that I can decide which one I want to read.
+  - As a User, I can open post details so I can see detailed post information, like it or leave a comment.
+  - As a User, I can like or unlike a post so that I can interact with the content.
+  - As a User, I can view the number of comments in the post so that I can see how popular is the post.
+  - As a User, I can leave comments on a post so that I can be involved in the conversation.
+  - As a User, I would like to be able to create a new Blog Post so that I can share my story.
+  - As an Admin, I can approve or disapprove comments so that I can filter out objectionable comments.
+  - As an Admin, I can create draft posts so that I can finish writing the content later.
+  - As an Admin, I can create, read, update and delete posts and comments so that I can manage my blog content.
 
 **EPIC 5 - Authentication**
 - User Stories
-  - As a Developer, I need to implement allauth so that users can sign up and have access to the websites features
-  - As a Site Owner, I would like the allauth pages customized to that they fit in with the sites styling
-  - As an Admin, I can log in to Site Administration so I can access the back end of the site
+  - As a Developer, I need to implement allauth so that users can sign up and have access to the websites features.
+  - As a Site Owner, I would like the allauth pages customized to that they fit in with the sites styling.
+  - As an Admin, I can log in to Site Administration so I can access the back end of the site.
 
 **EPIC 6 - Stand Alone Pages**
 - User Stories
-  - As a Site Owner, I would like a home page so that visitors can view information about my Blog
-  - As a User, I would like to be able to see my profile so that I can view my details or add my photo
-  - As a User, I would like to be able to contact the Blog Owner so that I can report any issue with the website
-  - As a Developer, I need to implement a 404 error page to alert users when they have accessed a page that doesn't exist
-  - As a Developer, I need to implement a 500 error page to alert users when an internal server error occurs
+  - As a Site Owner, I would like a home page so that visitors can view information about my Blog.
+  - As a User, I would like to be able to see my profile so that I can view my details or add my photo.
+  - As a User, I would like to be able to contact the Blog Owner so that I can report any issue with the website.
+  - As a Developer, I need to implement a 404 error page to alert users when they have accessed a page that doesn't exist.
+  - As a Developer, I need to implement a 500 error page to alert users when an internal server error occurs.
 
 **EPIC 7 - Documentation and testing**
 - Tasks
-  - Complete ReadMe documentation
-  - Complete Testing Documentation
+  - Complete ReadMe documentation.
+  - Complete Testing Documentation.
 
 Back to [top](#table-of-contents)<hr>
 
 
 ## The Scope Plane
 
--  Responsive Design - Site should be fully functional on all devices from 320px up
--  Hamburger menu for mobile devices
--  Ability to perform CRUD functionality on Posts(User and Admin)
--  Restricted detail blog view while unauthorised user
--  Home page with Blog Information
+-  Responsive Design - Site should be fully functional on all devices from 320px up.
+-  Hamburger menu for mobile devices.
+-  Ability to perform CRUD functionality on Posts(User and Admin).
+-  Restricted detail blog view while unauthorised user.
+-  Home page with Blog Information.
+
+Back to [top](#table-of-contents)<hr>
 
 
 ## The Skeleton Plane
@@ -207,19 +209,109 @@ Back to [top](#table-of-contents)<hr>
 Back to [top](#table-of-contents)<hr>
 
 
+## The Structure Plane
+
+## Features
+
+### Navigation
+
+- The navigation menu is displayed on all pages and drops down into a hamburger menu on smaller devices. This will allow users to view the site from any device and not take up too much space on mobile devices.
+
+<p><img src="https://res.cloudinary.com/dcydt01ed/image/upload/v1693346278/nav_mobile_zbtdeq.png" width="600px" height="auto"  alt="Nav Bar Login Mobile"></p>
+
+- Tabs on the navigation bar change depending on whether the user is logged in or not.
+
+    - If the user logs in or signs up, those two tabs are removed to be replaced with a Logout tab.
+
+    <p><img src="https://res.cloudinary.com/dcydt01ed/image/upload/v1693342454/nav_bar_login_tzyfks.png" width="800px" height="auto"  alt="Nav Bar Login"></p>
+
+    - Once the user logs in or signs up, a completely two new tabs appears called Create Post and Profile.
+
+    <p><img src="https://res.cloudinary.com/dcydt01ed/image/upload/v1693342460/nav_bar_logout_u4gepb.png" width="800px" height="auto"  alt="Nav Bar Logout"></p>
+
+### Home Screen
+
+- Home Page is a landing page that provides an overview of the website and its features.
+
+   - In the Hero Section there is a large  Hero image to catch the user's eye, the site name, a call to action with a Join Us button and a quote about dogs.
+
+   <p><img src="https://res.cloudinary.com/dcydt01ed/image/upload/v1693344421/hero_image_i2ajtk.png" width="600px" height="auto"  alt="Hero Section Join Us"></p>
+
+   - If the user sign up the join button will change to the Blog button(the direct link to the blog) 
+
+   <p><img src="https://res.cloudinary.com/dcydt01ed/image/upload/v1693345281/hero_image_blog_kvezlx.png" width="600px" height="auto"  alt="Hero Section Blog"></p>
+
+   - Below the Hero section there is About Us section to introduce the blog to the user.
+
+   <p><img src="https://res.cloudinary.com/dcydt01ed/image/upload/v1693344421/about_us_rjyp7a.png" width="600px" height="auto"  alt="About Us section"></p>
+
+### Footer
+
+A footer has been added to the bottom of the site, this contains Facebook, Instagram and Youtube links so that users can follow the blog on social media. These icons open in new tabs as they lead users away from the site.
+A footer also contains Copyright.
+
+<p><img src="https://res.cloudinary.com/dcydt01ed/image/upload/v1693344420/footer_quavpu.png" width="700px" height="auto"  alt="Footer"></p>
+
+### Contact Us Page
+
+- The Contact feature can be found from the nav bar and allows both signed in users and anonymous users to contact the site admin.
+- Contact Us Page contains a form with the contact reason option,  the user details and the message.
+- Styles are consistent with the rest of the website. 
+
+<p><img src="https://res.cloudinary.com/dcydt01ed/image/upload/v1693346596/contact_us_piml9j.png" width="600px" height="auto"  alt="Contact Us"></p>
+
+### Log In Page
+
+- The Log In page is accessed from the navigation bar.
+- The Log In page contains a link to the Sign Up page for the user who may have misclicked and needs to Sign Up rather than log in.
+- It uses django-allauth to provide all the settings for user authentication.
+- Styles are consistent with the rest of the website.
+- The page is fully responsive.
+
+<p><img src="https://res.cloudinary.com/dcydt01ed/image/upload/v1693346164/log_in_p6xxl1.png" width="600px" height="auto"  alt="Login Page"></p>
+
+### Sign Up Page
+
+- The Sign Up page is accessed from either the navigation bar or a button on the homepage(Join Us button).
+- The Sign Up page contains a link to the Log In page for the user who may have misclicked and already has an account.
+- It uses django-allauth to provide all the settings for user authentication:
+    - Unique username,
+    - Strength of password.
+- Styles are consistent with the rest of the website.
+- The page is fully responsive.
+
+<p><img src="https://res.cloudinary.com/dcydt01ed/image/upload/v1693346411/sign_up_page_ubeuhs.png" width="600px" height="auto"  alt="Sign Up Page"></p>
+
+### Log Out Page
+
+- The Log Out page can only be accessed from the navigation bar and only when the user is logged in.
+- The Log Out page has a button for users to confirm they wish to log out or the button to cancel the request.
+- It uses django-allauth to provide all the settings for user authentication.
+- Styles are consistent with the rest of the website.
+- The page is fully responsive.
+
+<p><img src="https://res.cloudinary.com/dcydt01ed/image/upload/v1693347287/logout_b0qkoe.png" width="600px" height="auto"  alt="Log Out"></p>
+
+
+
+## Features Left To Implement
+
+Back to [top](#table-of-contents)<hr>
+
+
 ## The Surface Plane
 
-## Design
+### Design
 
 - The Design of WeLoveDogs is clean and modern, with a focus on readability and ease of use.
 
 ### Colour Scheme
 
   - The four main colours used are: 
-     - Light Colour: #F9FAFC -for the body
-     - Dark Colour: #141414 - for the footer and shadows
-     - Orange/Brown Colour: #e6b265 - for the buttons and post detail decor
-     - Light orange/brown Colour: #e7d3b5 - for the forms
+     - Light Colour: #F9FAFC -for the body.
+     - Dark Colour: #141414 - for the footer and shadows.
+     - Orange/Brown Colour: #e6b265 - for the buttons and post detail decor.
+     - Light orange/brown Colour: #e7d3b5 - for the forms.
 
 <p><img src="https://res.cloudinary.com/dcydt01ed/image/upload/v1693265122/colour_nroimo.png" width="300px" height="auto"  alt="Colour"></p>
 
@@ -243,15 +335,15 @@ Back to [top](#table-of-contents)<hr>
 - CSS
   - The Website was styled using custom CSS in an external file.
 - JavaScript
-  - JavaScript was used to manipulate the DOM .
+  - JavaScript was used to manipulate the DOM.
 - Python
   - Python was the main programming language used for the application using the Django Framework.
 - GitHub
-  - Source code is hosted on GitHub
+  - Source code is hosted on GitHub.
 - Git
-  - Used to commit and push code during the development of the Website
+  - Used to commit and push code during the development of the Website.
 - Font Awesome
-  - This was used for various icons throughout the site
+  - This was used for various icons throughout the site.
 - Heroku
   - Heroku was used for live website deployment.
 - Cloudinary
@@ -266,6 +358,17 @@ Back to [top](#table-of-contents)<hr>
   - This was used to create the logo in header.
 
 Back to [top](#table-of-contents)<hr>
+
+
+## Testing
+
+
+
+
+
+
+Back to [top](#table-of-contents)<hr>
+
 
 ## Deployment
 
@@ -399,4 +502,6 @@ All those resources were very valuable in the progression of my project whenever
 
 ### 
 
-I would like to thank Code Institute for supplying me with the necessary guidance for this project. And Slack Community support for certain things I was completely stuck at.
+I would like to thank Code Institute for supplying me with the necessary guidance for this project. And Slack Community for certain things I was completely stuck at.
+
+Back to [top](#table-of-contents)<hr>
