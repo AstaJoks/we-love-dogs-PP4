@@ -233,6 +233,8 @@ Back to [top](#table-of-contents)<hr>
 
 - Home Page is a landing page that provides an overview of the website and its features.
 
+   #### Hero Section
+
    - In the Hero Section there is a large  Hero image to catch the user's eye, the site name, a call to action with a Join Us button and a quote about dogs.
 
    <p><img src="https://res.cloudinary.com/dcydt01ed/image/upload/v1693344421/hero_image_i2ajtk.png" width="600px" height="auto"  alt="Hero Section Join Us"></p>
@@ -240,6 +242,8 @@ Back to [top](#table-of-contents)<hr>
    - If the user sign up the join button will change to the Blog button(the direct link to the blog) 
 
    <p><img src="https://res.cloudinary.com/dcydt01ed/image/upload/v1693345281/hero_image_blog_kvezlx.png" width="600px" height="auto"  alt="Hero Section Blog"></p>
+
+   #### About Us Section
 
    - Below the Hero section there is About Us section to introduce the blog to the user.
 
@@ -292,9 +296,75 @@ A footer also contains Copyright.
 
 <p><img src="https://res.cloudinary.com/dcydt01ed/image/upload/v1693347287/logout_b0qkoe.png" width="600px" height="auto"  alt="Log Out"></p>
 
+### Blog Page
 
+- A Collection of Posts about the Dogs care, tips and tricks about their training and recipes for Dogs.
+- The Blog post lists can be found from the navigation bar(both signed in and anonymous users) and hero image section(signed in users only) and allows both signed in users and anonymous users to see the list of posts.
+
+<p><img src="https://res.cloudinary.com/dcydt01ed/image/upload/v1693348193/blog_page_s1nz0u.png" width="600px" height="auto"  alt="Blog Page"></p>
+
+### Post Detail Page
+
+  #### Post Detail Section
+
+  - A Full Detail Post can be seen by signed in users only.
+
+  <p><img src="https://res.cloudinary.com/dcydt01ed/image/upload/v1693348346/post_detail_page_post_cfexba.png" width="600px" height="auto"  alt="Post Detail Page"></p>
+
+  #### Comment Section
+
+  - Users can read the post, like the post and leave comments.
+
+  <p><img src="https://res.cloudinary.com/dcydt01ed/image/upload/v1693348345/comment_section_vt6uwf.png" width="600px" height="auto"  alt="Comments Section"></p>
+
+### Create Post
+
+- User must be register to create the post.
+- Create Post page can be accessed from the navigation bar and in the profile page.
+
+<p><img src="https://res.cloudinary.com/dcydt01ed/image/upload/v1693350555/create_post_vfjywe.png" width="600px" height="auto"  alt="Create Post"></p>
+
+### Edit/Delete Post
+
+- Once the user creates the post, edit and delete buttons appears on their post detail view.
+
+<p><img src="https://res.cloudinary.com/dcydt01ed/image/upload/v1693350748/edit_delete_post_tibiur.png" width="600px" height="auto"  alt="Edit/Delete Post"></p>
+
+### Edit Post
+
+- Edit Post Page can be accessed on the Post Detail Page(Users created Post)
+
+<p><img src="https://res.cloudinary.com/dcydt01ed/image/upload/v1693347983/edit_post_w1wmio.png" width="600px" height="auto"  alt="Edit Post"></p>
+
+### Delete Post
+
+- Delete Post button can be accessed on the Post Detail Page(Users created Post)
+- Once User press the delete button, the alert message appears to ask if the user is sure he wants to delete the post.
+
+<p><img src="https://res.cloudinary.com/dcydt01ed/image/upload/v1693347937/delete_post_gsa51t.png" width="600px" height="auto"  alt="Delete Post"></p>
+
+### Profile
+
+- Profile Page can be accessed from the navigation bar.
+- The Profile Page provide more user details that could also be added in general. Such as a profile picture or avatar that could be utilized in their comments.
+
+<p><img src="https://res.cloudinary.com/dcydt01ed/image/upload/v1693348416/profile_page_idnlnk.png" width="600px" height="auto"  alt="Profile Page"></p>
+
+### Success Messages
+
+Success messages are implemented throughout the website as the confirmation for the user that his/her action is completed successfully.
+
+<p><img src="https://res.cloudinary.com/dcydt01ed/image/upload/v1693349176/succsess_messages_qwyk1b.png" width="600px" height="auto"  alt="Success Messages"></p>
 
 ## Features Left To Implement
+
+- There are a number of features which would be great to implement in the future:
+   - ability for users to view author's/other users profiles,
+   - ability for users to save their favourite posts,
+   - ability for users to delete their own comments, 
+   - ability users to reply to other comments,
+   - ability users to login with their social media accounts.
+
 
 Back to [top](#table-of-contents)<hr>
 
