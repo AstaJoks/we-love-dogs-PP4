@@ -233,6 +233,8 @@ Back to [top](#table-of-contents)<hr>
 
 - Images throughout the website were taken from here: https://wall.alphacoders.com/by_collection.php?id=368
 
+Back to [top](#table-of-contents)<hr>
+
 
 ## Technologies
 
@@ -262,6 +264,8 @@ Back to [top](#table-of-contents)<hr>
   - wireframes were created using balsamiq from https://balsamiq.com/wireframes/desktop/#
 - CorelDraw
   - This was used to create the logo in header.
+
+Back to [top](#table-of-contents)<hr>
 
 ## Deployment
 
@@ -361,3 +365,35 @@ Before deployment on Heroku, two files need to be created and be up to date, a `
 - Press Enter to create your local clone.
 
 You will need to install all of the packages listed in the requirements file you can use the following command in the terminal `pip install -r requirements.txt` which will do it for you.
+
+Back to [top](#table-of-contents)<hr>
+
+
+## Credits
+
+### Content
+
+- [Code Institute - I Think Therefore I Blog](https://codeinstitute.net/ie/)
+- [Realphyton/djando social network](https://realpython.com/django-social-network-1/)
+- [User Profile and Picture](https://www.youtube.com/watch?v=FdVuKt_iuSI&t=589s)
+- [Create a Simple Django Blog](https://www.youtube.com/watch?v=B40bteAMM_M&list=PLCC34OHNcOtr025c1kHSPrnP18YPB-NFi)
+- [User Profile and Picture](https://www.youtube.com/watch?v=FdVuKt_iuSI&t=589s)
+- [Carousel Images](https://www.w3schools.com/bootstrap/bootstrap_carousel.asp)
+- [StackOverflow](https://stackoverflow.com/p)
+- [Bootstrap Documentation](https://getbootstrap.com/docs/5.3/getting-started/introduction/)
+- [DEV Community](https://dev.to/)
+
+
+All those resources were very valuable in the progression of my project whenever I was stuck at any point in time I refered back to the course material as well as the online resources.
+
+### Resources
+
+- [Code Institute](https://codeinstitute.net/ie/)
+- [Multi Device Website Mockup Generator](https://techsini.com/multi-mockup/)
+- [Quotes about Dogs](https://www.rover.com/blog/quotes-about-dogs/)
+- [Admins Posts about dog care](https://sitstay.com/blogs/good-dog-blog/the-best-dog-training-treats-for-successful-training-and-a-happy-pup)
+- [Images throughout the website](https://wall.alphacoders.com/by_collection.php?id=368)
+
+
+
+## Acknowledgments
