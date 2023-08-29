@@ -389,11 +389,14 @@ All those resources were very valuable in the progression of my project whenever
 ### Resources
 
 - [Code Institute](https://codeinstitute.net/ie/)
-- [Multi Device Website Mockup Generator](https://techsini.com/multi-mockup/)
+- [Am I Responsive](https://ui.dev/amiresponsive)
 - [Quotes about Dogs](https://www.rover.com/blog/quotes-about-dogs/)
 - [Admins Posts about dog care](https://sitstay.com/blogs/good-dog-blog/the-best-dog-training-treats-for-successful-training-and-a-happy-pup)
 - [Images throughout the website](https://wall.alphacoders.com/by_collection.php?id=368)
 
 
-
 ## Acknowledgments
+
+### 
+
+I would like to thank Code Institute for supplying me with the necessary guidance for this project. And Slack Community support for certain things I was completely stuck at.
