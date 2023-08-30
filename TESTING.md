@@ -10,7 +10,9 @@
   - [Post Detail Page](#post-detail-page)
   - [Contact Us Page](#contact-us-page)
   - [Profile Page](#profile-page)
+- [Functional Testing](#functional-testing)
 - [Manual Testing](#manual-testing)
+
 
 
 ## Validation
@@ -62,7 +64,7 @@ JavaScript code was run through [JSHINT](https://jshint.com) javascript validato
 
 ### Home Page
 
-<p><img src="https://res.cloudinary.com/dcydt01ed/image/upload/v1693427677/profile_xv2i9k.png" width="600px" height="auto"  alt="Lighthouse Testing Home"></p>
+<p><img src="https://res.cloudinary.com/dcydt01ed/image/upload/v1693427834/lighthouse_home_jca66z.png" width="600px" height="auto"  alt="Lighthouse Testing Home"></p>
 
 ### Blog Page
 
@@ -81,6 +83,22 @@ JavaScript code was run through [JSHINT](https://jshint.com) javascript validato
 <p><img src="https://res.cloudinary.com/dcydt01ed/image/upload/v1693427950/profile_ixlwgd.png" width="600px" height="auto"  alt="Lighthouse Testing Profile"></p>
 
 
-## Manual Testing 
+## Functional Testing
+
+
+
+
+
+## Manual Testing
+
+- The website was tested on Google Chrome, Firefox, Microsoft Edge and Safari browsers.
+
+   - The website was viewed on a variety of devices such as Desktop, Laptop, iPhone13, iPhone12 Pro, iPhone11, Samsung Galaxy NotePro...
+
+   - All buttons were checked to ensure that they are working with no issues.
+
+   - A large amount of testing was done to ensure that the website is working with no bugs.
+
+   - Friends and family members were asked to review the website and documentation to point out any bugs and/or user experience issues. 
 
 
