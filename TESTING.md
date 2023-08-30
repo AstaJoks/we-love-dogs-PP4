@@ -180,7 +180,59 @@ JavaScript code was run through [JSHINT](https://jshint.com) javascript validato
 | &check; | That page pagination is working correctly
 | &check; | Clicking the Post Title or the Read More button loads the post detail page
 | &check; | That the post author is visible on the post image
-| &check; | That the date/time created, the number of likes and comments is visible under the post title
+| &check; | That the date/time created, the number of likes and comments are visible under the post title
+
+| Status | **Post Detail Page - User Logged Out**
+|:-------:|:--------|
+| &check; | That post detail page is not loading if the user is logged out
+
+| Status | **Post Detail Page - User Logged In**
+|:-------:|:--------|
+| &check; | That image and text are loading correctly
+| &check; | That the post author, date/time created and the number of comments are visible under the post title above post image
+| &check; | Clicking on the number of comments below the post title, links to comments section on the post details page bottom
+| &check; | That the post like function is working correctly and when the user press the like(heart) button the button changes and the number of likes ads up
+| &check; | That the number of comments are visible under the post text
+
+| Status | **Post Detail Page/Comments Section - User Logged In**
+|:-------:|:--------|
+| &check; | That the users profile picture and the name is visible above the comments form
+| &check; | That the button Add Comment works correctly and the users comment appears under the post
+| &check; | That the comment's author and the date/time created are visible above the comment
+
+| Status | **Create Post Page - User Logged In**
+|:-------:|:--------|
+| &check; | That the Title input field is required
+| &check; | That the Content field is required
+| &check; | That none of the input fields accept empty fields
+| &check; | That none of the fields accept just spaces in an input field
+| &check; | That the form cannot be submitted without all the required fields and user feedback is given if a user forgets a required field
+| &check; | That the placeholder(image) adds if the user do not want to add the image for the post
+| &check; | That when the form is submitted a post slug is automatically created
+| &check; | That when the post is added, the user is redirected back to the Blog and the message informs that the post is successfully created
+
+| Status | **Edit/Delete Post - User Logged In**
+|:-------:|:--------|
+| &check; | That the Edit and Delete buttons are visible above the users post title
+| &check; | Clicking the Edit button redirects to edit post page
+| &check; | Clicking the Delete button redirects to delete post page
+
+| Status | **Edit Post Page - User Logged In**
+|:-------:|:--------|
+| &check; | That the Title input field is required
+| &check; | That the Content field is required
+| &check; | That none of the input fields accept empty fields
+| &check; | That none of the fields accept just spaces in an input field
+| &check; | That the form cannot be submitted without all the required fields and user feedback is given if a user forgets a required field
+| &check; | That the placeholder(image) adds if the user do not want to add the image for the post
+| &check; | That when the form is submitted(Edit Post button) a post slug is automatically created
+| &check; | That when the post is added, the user is redirected back to the Blog and the message informs that the post is successfully updated
+
+| Status | **Delete Post Page - User Logged In**
+|:-------:|:--------|
+| &check; | That the message appears in red text to alert the user that the all data of the post will be permanently deleted
+| &check; | Clicking Delete Post button deletes the post and redirects to the blog page
+| &check; | Clicking Cancel button redirects to home page
 
 | Status | **Contact Page- User Logged Out/In**
 |:-------:|:--------|
