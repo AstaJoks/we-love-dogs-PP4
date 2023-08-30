@@ -215,7 +215,7 @@ JavaScript code was run through [JSHINT](https://jshint.com) javascript validato
 |:-------:|:--------|
 | &check; | That the Edit and Delete buttons are visible above the users post title
 | &check; | Clicking the Edit button redirects to edit post page
-| &check; | Clicking the Delete button redirects to delete post page
+| &check; | Clicking the Delete button redirects to the Delete Post page
 
 | Status | **Edit Post Page - User Logged In**
 |:-------:|:--------|
@@ -230,11 +230,26 @@ JavaScript code was run through [JSHINT](https://jshint.com) javascript validato
 
 | Status | **Delete Post Page - User Logged In**
 |:-------:|:--------|
+| &check; | That the user can see the title of the post they would like to delete
 | &check; | That the message appears in red text to alert the user that the all data of the post will be permanently deleted
-| &check; | Clicking Delete Post button deletes the post and redirects to the blog page
-| &check; | Clicking Cancel button redirects to home page
+| &check; | Clicking Delete Post button deletes the post and redirects to the Blog page
+| &check; | That the alert message informs the user that they have successfully deleted their post
+| &check; | Clicking Cancel button redirects to Blog page
+| &check; | That the post is completely deleted and doesnt show up in the database or subsequently any place on the website
 
-| Status | **Contact Page- User Logged Out/In**
+| Status | **Profile Page- User Logged Out/In**
+|:-------:|:--------|
+| &check; | That the user can change their name
+| &check; | That the user can add their bio
+| &check; | That the user can add their location
+| &check; | That the user can add their birth of date
+| &check; | That the user can add their bio
+| &check; | That the user profile Image is required
+| &check; | That the placeholder(image) is in place while the user have not updated their profile picture
+| &check; | Clicking the Update Profile button the alert message informs that users profile is updated successfully
+| &check; | Clicking the Create Post button redirects to the Create Post page
+
+| Status | **Contact Us Page- User Logged Out/In**
 |:-------:|:--------|
 | &check; | That Reason input field is required
 | &check; | That Reason input field has three options
@@ -247,12 +262,6 @@ JavaScript code was run through [JSHINT](https://jshint.com) javascript validato
 | &check; | That user feedback is provided if none of the required criteria to submit the form are met
 | &check; | Clicking the Submit button sends the message to the Administration and that the user is redirected to the contact page.
 | &check; | That an alert message informs the user that their message was sent successfully upon the user sending the message
-
-
-
-
-
-
 
 
 ## Manual Testing
