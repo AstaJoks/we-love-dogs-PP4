@@ -117,13 +117,13 @@ JavaScript code was run through [JSHINT](https://jshint.com) javascript validato
 | Status | **Home Page - User Logged Out**
 |:-------:|:--------|
 | &check; | That images and text are loading correctly
-| &check; | That a Join Us button appear in the hero section
+| &check; | That a Join Us button appears in the hero section
 | &check; | Clicking the Join Us button in the hero section of the home page loads the signup page
 
 | Status | **Home Page - User Logged In**
 |:-------:|:--------|
 | &check; | That images and text are loading correctly
-| &check; | That a Blog button appear in the hero section
+| &check; | That a Blog button appears in the hero section
 | &check; | Clicking the Blog button in the hero section of the home page loads the blog page
 
  Status | **Sign Up Page - User Logged Out**
