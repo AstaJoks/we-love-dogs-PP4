@@ -13,9 +13,9 @@
             <h1>Contact us</h1>
             <form method="post">
                 <div class="form-group">
-                    {% csrf_token %}
-                    {{ contact_form | crispy }}
-                    <p><input type="submit" value="Submit" class="btn text-center btn-light"></p>
+                {% csrf_token %}
+                {{ contact_form | crispy }}
+                <p><input type="submit" value="Submit" class="btn text-center btn-light"></p>
                 </div>
             </form>
             <a href="/" aria-label="Cancel button" class="btn text-center btn-light">Cancel</a>
