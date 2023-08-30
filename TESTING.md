@@ -32,7 +32,7 @@ Html validation was done with [https://validator.w3.org/nu/](https://validator.w
 
 The stylesheet was validated using [https://jigsaw.w3.org/css-validator/](https://jigsaw.w3.org/css-validator/)
 
-- No Errors were detected.
+- No errors were found.
 
 <p><img src="https://res.cloudinary.com/dcydt01ed/image/upload/v1693415331/CSS_Validation_yi5iwh.png" width="800px" height="auto"  alt="CSS Validation"></p>
 
@@ -56,19 +56,29 @@ JavaScript code was run through [JSHINT](https://jshint.com) javascript validato
 <p><img src="https://res.cloudinary.com/dcydt01ed/image/upload/v1693414451/jshint_valiodator_fixed_akaaba.png" width="400px" height="auto"  alt="JS Hint Validation fixed"></p>
 
 
-
 ## Lighthouse Testing
 
+- The performance test was done with Lighthouse through Google Chrome Developer Tools, both for desktop and mobile devices. Most Pages scored High.
 
 ### Home Page
 
+<p><img src="https://res.cloudinary.com/dcydt01ed/image/upload/v1693427677/profile_xv2i9k.png" width="600px" height="auto"  alt="Lighthouse Testing Home"></p>
+
 ### Blog Page
+
+<p><img src="https://res.cloudinary.com/dcydt01ed/image/upload/v1693427677/blog_c2zfgu.png" width="600px" height="auto"  alt="Lighthouse Testing Blog"></p>
 
 ### Post Detail Page
 
+<p><img src="https://res.cloudinary.com/dcydt01ed/image/upload/v1693427677/post_detail_ivnz0i.png" width="600px" height="auto"  alt="Lighthouse Testing Post Detail"></p>
+
 ### Contact Us Page
 
+<p><img src="https://res.cloudinary.com/dcydt01ed/image/upload/v1693427677/contact_zjwlgq.png" width="600px" height="auto"  alt="Lighthouse Testing Contact"></p>
+
 ### Profile Page
+
+<p><img src="https://res.cloudinary.com/dcydt01ed/image/upload/v1693427950/profile_ixlwgd.png" width="600px" height="auto"  alt="Lighthouse Testing Profile"></p>
 
 
 ## Manual Testing 
