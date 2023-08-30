@@ -20,7 +20,7 @@
     <div class="row g-0">
         <div class="card">
             {% if "placeholder" in post.featured_image.url %}
-            <img class="img-responsive" src="https://res.cloudinary.com/dcydt01ed/image/upload/v1692737340/q0o43rqaawoccbgafryc.jpg" width="100%">
+            <img class="img-responsive" src="https://res.cloudinary.com/dcydt01ed/image/upload/v1692737340/q0o43rqaawoccbgafryc.jpg" alt="Dogs" width="100%">
             {% else %}
             <img src=" {{ post.featured_image.url }}" width="100%">
             {% endif %}

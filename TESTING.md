@@ -17,11 +17,15 @@
 
 ### HTML Validation
 
+Html validation was done with [https://validator.w3.org/nu/](https://validator.w3.org/nu/). The deployed link from the site was used the below errors were highlighted.
+- Home Page
+<p><img src="https://res.cloudinary.com/dcydt01ed/image/upload/v1693415331/CSS_Validation_yi5iwh.png" width="600px" height="auto"  alt="HTML Validation"></p>
+
 ### CSS Validation
 
 The stylesheet was validated using [https://jigsaw.w3.org/css-validator/](https://jigsaw.w3.org/css-validator/)
 
-<p><img src="https://res.cloudinary.com/dcydt01ed/image/upload/v1693414451/jshint_validator_p19sai.png" width="300px" height="auto"  alt="CSS Validation"></p>
+<p><img src="https://res.cloudinary.com/dcydt01ed/image/upload/v1693415331/CSS_Validation_yi5iwh.png" width="600px" height="auto"  alt="CSS Validation"></p>
 
 ### Python Validation
 
