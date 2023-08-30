@@ -352,9 +352,15 @@ A footer also contains Copyright.
 
 ### Success Messages
 
-Success messages are implemented throughout the website as the confirmation for the user that his/her action is completed successfully.
+- Success messages are implemented throughout the website as the confirmation for the user that his/her action is completed successfully.
 
 <p><img src="https://res.cloudinary.com/dcydt01ed/image/upload/v1693349176/succsess_messages_qwyk1b.png" width="600px" height="auto"  alt="Success Messages"></p>
+
+### Favicon 
+
+ - A favicon was added the website to enable users to easily locate the website in the browser when multiple tabs are open.
+
+ <p><img src="https://res.cloudinary.com/dcydt01ed/image/upload/v1693352471/favicon_ixzdc8.png" width="400px" height="auto"  alt="Favicon"></p>
 
 ## Features Left To Implement
 
@@ -364,7 +370,6 @@ Success messages are implemented throughout the website as the confirmation for 
    - ability for users to delete their own comments, 
    - ability users to reply to other comments,
    - ability users to login with their social media accounts.
-
 
 Back to [top](#table-of-contents)<hr>
 
@@ -432,10 +437,7 @@ Back to [top](#table-of-contents)<hr>
 
 ## Testing
 
-
-
-
-
+Testing documentation is here: [Testing](./TESTING.md)
 
 Back to [top](#table-of-contents)<hr>
 
