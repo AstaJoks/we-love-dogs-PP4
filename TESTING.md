@@ -85,6 +85,120 @@ JavaScript code was run through [JSHINT](https://jshint.com) javascript validato
 
 ## Functional Testing
 
+- In addition to the other tests, I have conducted a manual functional check list to make sure that everything is working as intended.
+
+| Status | **Navigation Bar - User Logged Out**
+|:-------:|:--------|
+| &check; | Clicking the navbar logo loads the home page
+| &check; | That The navbar shows the tabs Home, Blog, Contact Us, Sign Up and Login if the user is logged out
+| &check; | Clicking the Home tab on the navbar loads the home page
+| &check; | Clicking the Blog tab on the navbar loads the blog page
+| &check; | Clicking the Contact Us tab on the navbar loads the contact page
+| &check; | Clicking the Sign up tab on the navbar loads the sign up page
+| &check; | Clicking the Login tab on the navbar loads the login page
+
+| Status | **Navigation Bar - User Logged In**
+|:-------:|:--------|
+| &check; | Clicking the navbar logo loads the home page
+| &check; | That The navbar shows the tabs Home, Blog, Contact Us, Create Post, Profile and Logout if the user is logged in
+| &check; | Clicking the Home tab on the navbar loads the home page
+| &check; | Clicking the Blog tab on the navbar loads the blog page
+| &check; | Clicking the Contact Us tab on the navbar loads the contact page
+| &check; | Clicking the Create Post tab on the navbar loads the create post page
+| &check; | Clicking the Profile tab on the navbar loads the profile page
+| &check; | Clicking the Logout tab on the navbar loads the logout page
+
+| Status | **Footer - User Logged Out/In**
+|:-------:|:--------|
+| &check; | Clicking the facebook icon loads the facebook home page in a new tab
+| &check; | Clicking the instagram icon loads the instagram home page in a new tab
+| &check; | Clicking the youtube icon loads the youtube home page in a new tab
+
+| Status | **Home Page - User Logged Out**
+|:-------:|:--------|
+| &check; | That images and text are loading correctly
+| &check; | That a Join Us button appear in the hero section
+| &check; | Clicking the Join Us button in the hero section of the home page loads the signup page
+
+| Status | **Home Page - User Logged In**
+|:-------:|:--------|
+| &check; | That images and text are loading correctly
+| &check; | That a Blog button appear in the hero section
+| &check; | Clicking the Blog button in the hero section of the home page loads the blog page
+
+ Status | **Sign Up Page - User Logged Out**
+|:-------:|:--------|
+| &check; | Clicking the log in link below the user input loads the log in page
+| &check; | That the username input field is required
+| &check; | That both password input fields is a required field
+| &check; | That if you provide a username and password that is too similiar that the user cannot sign up and user feedback is provided
+| &check; | That if your password doesn't match in both password fields, the user cannot sign up and user feedback is provided
+| &check; | That if the user provides a password less that 8 character, the user cannot sign up and user feedback is provided
+| &check; | That if you provide a good username and password but the email field does not contain a proper email address, the user cannot sign up and user feedback is given
+| &check; | That the email input field is optional
+| &check; | Clicking the Sign Up button signs the user up and logs the user in if the correct user information was provided for sign up
+| &check; | That when the user signs up, they are redirected to the home page and an alert message informs the user that they sisgned up successfully
+
+| Status | **Sign Up Page - User Logged In**
+|:-------:|:--------|
+| &check; | That the user can not access the signup tab from the navbar if they have logged in
+
+| Status | **Log In Page - User Logged Out**
+|:-------:|:--------|
+| &check; | Clicking the sign up link below the user input loads the sign up page
+| &check; | That the username input field is required
+| &check; | That the password input field is required
+| &check; | That if the username does not match the password the user cannot log in and user feedback is provided
+| &check; | That if the correct credentials are given the user is logged in when the log in button is clicked
+| &check; | That when the user is logged in they are redirected to the the home page and an alert message informs the user that they logged in successfully
+
+| Status | **Log In Page - User Logged In**
+|:-------:|:--------|
+| &check; | That the user can not access the login tab from the navbar if they have logged in
+
+| Status | **Log Out Page - User Logged Out**
+|:-------:|:--------|
+| &check; | That the user cannot access the log out tab from the navbar if they have logged out
+
+| Status | **Log Out Page - User Logged In**
+|:-------:|:--------|
+| &check; | Clicking the logout button in the navbar the message appears asking to confirm the log out action
+| &check; | Clicking the logout button logs the user out
+| &check; | When the user logs out they are redirected to the home page and a message alerts the user that they have logged out
+
+| Status | **Blog Page - User Logged Out**
+|:-------:|:--------|
+| &check; | That images and text are loading correctly
+| &check; | That page pagination is working correctly
+| &check; | Clicking the Post Title or the Read More button loads the sign up page
+| &check; | That the post author is visible on the post image
+| &check; | That the date/time created, the number of likes and comments is visible under the post title
+
+| Status | **Blog Page - User Logged In**
+|:-------:|:--------|
+| &check; | That images and text are loading correctly
+| &check; | That page pagination is working correctly
+| &check; | Clicking the Post Title or the Read More button loads the post detail page
+| &check; | That the post author is visible on the post image
+| &check; | That the date/time created, the number of likes and comments is visible under the post title
+
+| Status | **Contact Page- User Logged Out/In**
+|:-------:|:--------|
+| &check; | That Reason input field is required
+| &check; | That Reason input field has three options
+| &check; | That Name input field is required
+| &check; | That Email input field is required
+| &check; | That Message input field is required
+| &check; | That none of the fields can be submitted blank
+| &check; | That the email field only accepts proper email syntax (@ symbol has to be present)
+| &check; | That none of the fields can accept just blank spaces
+| &check; | That user feedback is provided if none of the required criteria to submit the form are met
+| &check; | Clicking the Submit button sends the message to the Administration and that the user is redirected to the contact page.
+| &check; | That an alert message informs the user that their message was sent successfully upon the user sending the message
+
+
+
+
 
 
 
