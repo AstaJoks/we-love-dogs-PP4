@@ -17,28 +17,43 @@
 
 ### HTML Validation
 
-Html validation was done with [https://validator.w3.org/nu/](https://validator.w3.org/nu/). The deployed link from the site was used the below errors were highlighted.
-- Home Page
-<p><img src="https://res.cloudinary.com/dcydt01ed/image/upload/v1693415331/CSS_Validation_yi5iwh.png" width="600px" height="auto"  alt="HTML Validation"></p>
+Html validation was done with [https://validator.w3.org/nu/](https://validator.w3.org/nu/). 
+
+- The deployed link from the site was used, the below errors were highlighted:
+
+<p><img src="https://res.cloudinary.com/dcydt01ed/image/upload/v1693421561/html_validation_nc8rjl.png" width="700px" height="auto"  alt="HTML Validation"></p>
+
+- Errors were fixed and validation passed successfully.
+
+<p><img src="https://res.cloudinary.com/dcydt01ed/image/upload/v1693421555/html_validation_fixed_jk70xc.png" width="700px" height="auto"  alt="HTML Validation Fixed"></p>
+
 
 ### CSS Validation
 
 The stylesheet was validated using [https://jigsaw.w3.org/css-validator/](https://jigsaw.w3.org/css-validator/)
 
-<p><img src="https://res.cloudinary.com/dcydt01ed/image/upload/v1693415331/CSS_Validation_yi5iwh.png" width="600px" height="auto"  alt="CSS Validation"></p>
+- No Errors were detected.
+
+<p><img src="https://res.cloudinary.com/dcydt01ed/image/upload/v1693415331/CSS_Validation_yi5iwh.png" width="800px" height="auto"  alt="CSS Validation"></p>
 
 ### Python Validation
+
+Python code was validated using [Code institues Python validator](https://pep8ci.herokuapp.com/#)
+
+- Only minor errors such as missing blank spacing or whitespace. These were rectified easily.
+
+<p><img src="https://res.cloudinary.com/dcydt01ed/image/upload/v1693423295/python_validation_rtnmap.png" width="800px" height="auto"  alt="Python Validation"></p>
 
 ### Javascript Validation
 
 JavaScript code was run through [JSHINT](https://jshint.com) javascript validator.
 - It flagged up two warnings that 'let' is available in ES6, I fixed these warnings with adding /* jshint esversion: 6 */ at the top of teh function
 
-<p><img src="https://res.cloudinary.com/dcydt01ed/image/upload/v1693414451/jshint_validator_p19sai.png" width="300px" height="auto"  alt="JS Hint Validation"></p>
+<p><img src="https://res.cloudinary.com/dcydt01ed/image/upload/v1693414451/jshint_validator_p19sai.png" width="400px" height="auto"  alt="JS Hint Validation"></p>
 
 - It also flagged up the issue with one undefined variable. 
 
-<p><img src="https://res.cloudinary.com/dcydt01ed/image/upload/v1693414451/jshint_valiodator_fixed_akaaba.png" width="300px" height="auto"  alt="JS Hint Validation fixed"></p>
+<p><img src="https://res.cloudinary.com/dcydt01ed/image/upload/v1693414451/jshint_valiodator_fixed_akaaba.png" width="400px" height="auto"  alt="JS Hint Validation fixed"></p>
 
 
 
