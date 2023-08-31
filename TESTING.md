@@ -279,10 +279,9 @@ All pages were tested to ensure responsiveness on screen sizes from 320px and up
 | &check; | That the user can change their name
 | &check; | That the user can add their bio
 | &check; | That the user can add their location
-| &check; | That the user can add their birth of date
-| &check; | That the user can add their bio
-| &check; | That the user profile Image is required
-| &check; | That the placeholder(image) is in place while the user have not updated their profile picture
+| &check; | That the user can pick their birth of date from the Date Input
+| &check; | That the user can upload the profile picture
+| &check; | That the placeholder(image) is in place if the user have not updated their profile picture
 | &check; | Clicking the Update Profile button the alert message informs that users profile is updated successfully
 | &check; | Clicking the Create Post button redirects to the Create Post page
 
