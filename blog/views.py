@@ -135,3 +135,10 @@ def handler404(request, exception):
     Displays a custom 404 error page.
     """
     return render(request, '404.html', status=404)
+
+
+def handler500(request, exception):
+    """
+    Displays a custom 500 error page.
+    """
+    return render(request, '500.html', status=500)
