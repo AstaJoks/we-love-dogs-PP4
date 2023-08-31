@@ -350,6 +350,24 @@ A footer also contains Copyright.
 
 <p><img src="https://res.cloudinary.com/dcydt01ed/image/upload/v1693348416/profile_page_idnlnk.png" width="600px" height="auto"  alt="Profile Page"></p>
 
+### 404 Page
+
+- The 404 page will allow the user to easily navigate back to the main website if they direct to a broken link / missing page, without the need of the browsers back button.
+
+<p><img src="https://res.cloudinary.com/dcydt01ed/image/upload/v1693523416/404_error_up8gj3.png" width="600px" height="auto"  alt="404 Page"></p>
+
+### 403 Page
+
+- A 403 error page has been implemented to provide feedback to the user when they try to access unauthorized content. Users will be directed to this page if they alter the URL's and attempt to edit, delete
+
+<p><img src="https://res.cloudinary.com/dcydt01ed/image/upload/v1693523416/403_error_hzoczn.png" width="600px" height="auto"  alt="403 Page"></p>
+
+### 500 Page
+
+- A 500 error page has been displayed to alert users when an internal server error occurs. The message relays to users that the problem is on our end, not theirs.
+
+<p><img src="https://res.cloudinary.com/dcydt01ed/image/upload/v1693523416/500_error_h8sy1r.png" width="600px" height="auto"  alt="500 Page"></p>
+
 ### Success Messages
 
 - Success messages are implemented throughout the website as the confirmation for the user that his/her action is completed successfully.
@@ -392,7 +410,7 @@ Back to [top](#table-of-contents)<hr>
 
 ### Typography
 
-- One font was chosen for this website, and that was Roboto from google fonts. It is clear and simple to read.
+- Two fonts were chosen for this website: Roboto and Lato from google fonts. They are clear and simple to read.
 
 ### Imagery
 
