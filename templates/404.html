@@ -4,13 +4,13 @@
 {% block content %} 
 
 <div class="container py-5">
-    <div class="row justify-content-center">
-        <div class="col-md-8 offset-md-2">
-            <h1 class="text-center">Oops! This page doesn't exists.</h1>
-            <p class="text-center">Sorry, you've encountered a 404 error. Please try again.</p>
+    <div class="row">
+        <div class="col-md-8 offset-md-2 text-center">
+            <h1>Oops! This page doesn't exists.</h1>
+            <p>Sorry, you've encountered a 404 error. Please try again.</p>
+            <a href="{% url 'home' %}" class="btn btn-light justify-content-center">Home</a>
         </div>
     </div>
-    <a href="{% url 'home' %}" class="btn btn-light">Home</a>
 </div>
 
 {% endblock %}

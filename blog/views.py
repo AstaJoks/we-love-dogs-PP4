@@ -1,6 +1,7 @@
 from django.shortcuts import render, get_object_or_404, reverse
 from django.views import generic, View
 from django.views.generic import ListView, CreateView, UpdateView, DeleteView
+from django.contrib.auth.mixins import LoginRequiredMixin, UserPassesTestMixin
 from django.http import HttpResponseRedirect
 from .models import Post, Comment
 from .forms import CommentForm, PostForm, EditPostForm
@@ -26,7 +27,7 @@ class PostList(generic.ListView):
     paginate_by = 6
 
 
-class CreatePost(SuccessMessageMixin, CreateView):
+class CreatePost(LoginRequiredMixin, SuccessMessageMixin, CreateView):
     """View to create the post by the user"""
     model = Post
     form_class = PostForm
@@ -39,15 +40,24 @@ class CreatePost(SuccessMessageMixin, CreateView):
         return super(CreatePost, self).form_valid(form)
 
 
-class UpdatePost(SuccessMessageMixin, UpdateView):
+class UpdatePost(LoginRequiredMixin, UserPassesTestMixin,
+                 SuccessMessageMixin, UpdateView):
     """View to edit the users post"""
     model = Post
     template_name = 'edit_post.html'
     form_class = EditPostForm
     success_message = 'Your post has been successfully updated!'
 
+    def test_func(self):
+        """ Test user is admin or throw 403 """
+        if self.request.user.is_admin:
+            return True
+        else:
+            return self.request.user == self.get_object().author
 
-class DeletePost(SuccessMessageMixin, DeleteView):
+
+class DeletePost(LoginRequiredMixin, UserPassesTestMixin,
+                 SuccessMessageMixin, DeleteView):
     """View to delete the users post"""
     model = Post
     template_name = 'delete_post.html'
@@ -60,7 +70,7 @@ class DeletePost(SuccessMessageMixin, DeleteView):
         return super(DeletePost, self).delete(request, *args, **kwargs)
 
 
-class PostDetail(View):
+class PostDetail(LoginRequiredMixin, View):
     """View to render a Blog Posts Details"""
 
     def get(self, request, slug, *args, **kwargs):
@@ -118,7 +128,7 @@ class PostDetail(View):
         )
 
 
-class PostLike(View):
+class PostLike(LoginRequiredMixin, View):
     """Function for users to allow liking the post"""
     def post(self, request, slug, *args, **kwargs):
         post = get_object_or_404(Post, slug=slug)
