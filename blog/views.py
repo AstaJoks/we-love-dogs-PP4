@@ -47,13 +47,11 @@ class UpdatePost(LoginRequiredMixin, UserPassesTestMixin,
     template_name = 'edit_post.html'
     form_class = EditPostForm
     success_message = 'Your post has been successfully updated!'
-
+    """ Test user is author or throw 403 """
     def test_func(self):
-        """ Test user is admin or throw 403 """
-        if self.request.user.is_admin:
-            return True
-        else:
-            return self.request.user == self.get_object().author
+        post = self.get_object()
+        return self.request.user == post.author \
+            or self.request.user.is_superuser
 
 
 class DeletePost(LoginRequiredMixin, UserPassesTestMixin,
@@ -68,6 +66,11 @@ class DeletePost(LoginRequiredMixin, UserPassesTestMixin,
         """Function for succcess message"""
         messages.success(self.request, self.success_message)
         return super(DeletePost, self).delete(request, *args, **kwargs)
+    """ Test user is author or throw 403 """
+    def test_func(self):
+        post = self.get_object()
+        return self.request.user == post.author \
+            or self.request.user.is_superuser
 
 
 class PostDetail(LoginRequiredMixin, View):
