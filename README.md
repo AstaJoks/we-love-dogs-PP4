@@ -575,6 +575,7 @@ Back to [top](#table-of-contents)<hr>
 - [StackOverflow](https://stackoverflow.com/p)
 - [Bootstrap Documentation](https://getbootstrap.com/docs/5.3/getting-started/introduction/)
 - [DEV Community](https://dev.to/)
+- [Django Documentation for authentication system](https://docs.djangoproject.com/en/4.2/topics/auth/default/)
 
 
 All those resources were very valuable in the progression of my project whenever I was stuck at any point in time I refered back to the course material as well as the online resources.
