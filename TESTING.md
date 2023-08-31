@@ -10,8 +10,10 @@
   - [Post Detail Page](#post-detail-page)
   - [Contact Us Page](#contact-us-page)
   - [Profile Page](#profile-page)
-- [Functional Testing](#functional-testing)
-- [Manual Testing](#manual-testing)
+- [Manual Testing](#manual-testing)  
+  - [Functional Testing](#functional-testing)
+  - [Responsiveness](#responsiveness)
+- [Bugs](#bugs)
 
 
 
@@ -57,6 +59,8 @@ JavaScript code was run through [JSHINT](https://jshint.com) javascript validato
 
 <p><img src="https://res.cloudinary.com/dcydt01ed/image/upload/v1693414451/jshint_valiodator_fixed_akaaba.png" width="400px" height="auto"  alt="JS Hint Validation fixed"></p>
 
+Back to [top](#table-of-contents)<hr>
+
 
 ## Lighthouse Testing
 
@@ -82,8 +86,41 @@ JavaScript code was run through [JSHINT](https://jshint.com) javascript validato
 
 <p><img src="https://res.cloudinary.com/dcydt01ed/image/upload/v1693427950/profile_ixlwgd.png" width="600px" height="auto"  alt="Lighthouse Testing Profile"></p>
 
+Back to [top](#table-of-contents)<hr>
 
-## Functional Testing
+
+## Manual Testing
+
+- The website was tested on Google Chrome, Firefox, Microsoft Edge and Safari browsers.
+
+   - The website was viewed on a variety of devices such as Desktop, Laptop, iPhone13, iPhone12 Pro, Samsung Galaxy NotePro.
+
+   - All buttons were checked to ensure that they are working with no issues.
+
+   - A large amount of testing was done to ensure that the website is working with no bugs.
+
+   - Friends and family members were asked to review the website and documentation to point out any bugs and/or user experience issues.
+
+
+### Responsiveness
+
+All pages were tested to ensure responsiveness on screen sizes from 320px and upwards as defined in WCAG 2.1 Reflow criteria for responsive design on Chrome, Edge, Firefox and Opera browsers.
+
+- Steps to test:
+    - Open the browser and navigate to [WeLoveDogs](https://we-love-dogs-pp4-3e532b8b5551.herokuapp.com/)
+    - Open the developer tools (right click and inspect)
+    - Set to responsive and decrease width to 320px
+    - Set the zoom to 50%
+    - Click and drag the responsive window to maximum width
+
+- Expected:
+    - Website is responsive on all screen sizes and no images are pixelated or stretched. No horizontal scroll is present. No elements overlap.
+
+- Actual:
+    - Website behaved as expected.
+
+
+### Functional Testing
 
 - In addition to the other tests, I have conducted a manual functional check list to make sure that everything is working as intended.
 
@@ -263,17 +300,21 @@ JavaScript code was run through [JSHINT](https://jshint.com) javascript validato
 | &check; | Clicking the Submit button sends the message to the Administration and that the user is redirected to the contact page.
 | &check; | That an alert message informs the user that their message was sent successfully upon the user sending the message
 
+Back to [top](#table-of-contents)<hr>
 
-## Manual Testing
 
-- The website was tested on Google Chrome, Firefox, Microsoft Edge and Safari browsers.
+## Bugs
 
-   - The website was viewed on a variety of devices such as Desktop, Laptop, iPhone13, iPhone12 Pro, iPhone11, Samsung Galaxy NotePro...
+I encountered quite a number of issues and bugs during the development of the site, however some deserves to be noted:
 
-   - All buttons were checked to ensure that they are working with no issues.
+- The first issue I faced when I was creating files for deployment. Every time when I was re-opening my workspace, the env.py and all installed libraries were gone. As a result, I asked for assistance in Slack. 
+Fortunately, someone noticed that I was continuing to use the Gitpod Button in my repository as a means of opening the workspace instead of opening my workspace directly.
 
-   - A large amount of testing was done to ensure that the website is working with no bugs.
+- I had an issue with static files when I created the base.html, and the static files were not loading up correctly. After hours of checking the base.html code I find out that I was missing the JS Script and CSS link.
+Silly mistake cost me a lot of headache.
 
-   - Friends and family members were asked to review the website and documentation to point out any bugs and/or user experience issues. 
+- I was unable to customise summernote fields width and toolbar. So decided to use the regular form(for users posts).
+
+- Image loading time. I noticed that whenever I get into the Blog Page, the page tend to loads a bit longer than usual. If posts are going to be added in with high resolutions images, it will affect the performance negatively. Image caching or only allowing of certain formats will have to most likely be implemented to lower the loading times.
 
 
