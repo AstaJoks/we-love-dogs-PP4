@@ -299,6 +299,16 @@ All pages were tested to ensure responsiveness on screen sizes from 320px and up
 | &check; | Clicking the Submit button sends the message to the Administration and that the user is redirected to the contact page.
 | &check; | That an alert message informs the user that their message was sent successfully upon the user sending the message
 
+| Status | **403, 404, 500 Error Pages**
+|:-------:|:--------|
+| &check; | That 403 error page loads if the unauthorised user attempts to edit/delete the post by altering URL'S.
+| &check; | That Home Page Button links to the home page correctly in the 403 error page
+| &check; | That 404 page loads if the user directs to a broken link/missing page.
+| &check; | That Home Page Button links to the home page correctly in the 404 error page
+| &check; | That 500 page loads when internal server error occurs.
+| &check; | That Home Page Button links to the home page correctly in the 500 error page
+
+
 Back to [top](#table-of-contents)<hr>
 
 
